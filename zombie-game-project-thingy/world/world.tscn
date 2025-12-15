@@ -73,3 +73,4 @@ skeleton = NodePath("../../..")
 
 [node name="Zombie" parent="." instance=ExtResource("2_tcf2h")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.166057, 0, -0.5973695)
+speed = 4.0

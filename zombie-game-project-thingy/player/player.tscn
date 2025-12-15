@@ -11,6 +11,14 @@
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 script = ExtResource("1_oul6g")
 
+[node name="Pivot" type="Node3D" parent="CharacterBody3D"]
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CharacterBody3D/Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.97065, 2.95535)
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/Pivot/SpringArm3D"]
+transform = Transform3D(1, 0, 0, 0, 0.996866, 0.0791029, 0, -0.0791029, 0.996866, 0, 0, 0)
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
 shape = SubResource("CapsuleShape3D_kqu6x")
@@ -18,9 +26,3 @@ shape = SubResource("CapsuleShape3D_kqu6x")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D/CollisionShape3D"]
 mesh = SubResource("CapsuleMesh_oul6g")
 skeleton = NodePath("../../..")
-
-[node name="SpringArm3D" type="SpringArm3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.97065, 2.95535)
-
-[node name="Camera3D" type="Camera3D" parent="SpringArm3D"]
-transform = Transform3D(1, 0, 0, 0, 0.996866, 0.0791029, 0, -0.0791029, 0.996866, 0, 0, 0)

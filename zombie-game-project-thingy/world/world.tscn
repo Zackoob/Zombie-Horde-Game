@@ -23,10 +23,10 @@ data = PackedVector3Array(-2.5, 1.5, 2.5, 2.5, 1.5, 2.5, -2.5, -1.5, 2.5, 2.5, 1
 [sub_resource type="BoxMesh" id="BoxMesh_tcf2h"]
 size = Vector3(5, 3, 5)
 
-[sub_resource type="PlaneMesh" id="PlaneMesh_tcf2h"]
-
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_6xmxd"]
 data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_tcf2h"]
 
 [node name="World" type="Node3D"]
 
@@ -50,14 +50,27 @@ shape = SubResource("ConcavePolygonShape3D_tcf2h")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D3/CollisionShape3D"]
 mesh = SubResource("BoxMesh_tcf2h")
-skeleton = NodePath("../../../StaticBody3D2")
+skeleton = NodePath("")
 
-[node name="StaticBody3D2" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.002, -1.303503, 0)
+[node name="StaticBody3D4" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.186715, 1.499999, 9.629019)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D2"]
-transform = Transform3D(24.161491, 0, 0, 0, 1, 0, 0, 0, 25.005262, -0.001, 0.6517515, 0)
-mesh = SubResource("PlaneMesh_tcf2h")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D4"]
+shape = SubResource("ConcavePolygonShape3D_tcf2h")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D4/CollisionShape3D"]
+mesh = SubResource("BoxMesh_tcf2h")
+skeleton = NodePath("")
+
+[node name="StaticBody3D5" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5068445, 1.5, 2.7282963)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D5"]
+shape = SubResource("ConcavePolygonShape3D_tcf2h")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D5/CollisionShape3D"]
+mesh = SubResource("BoxMesh_tcf2h")
+skeleton = NodePath("")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, -0.6517515, 0)
@@ -72,5 +85,579 @@ mesh = SubResource("PlaneMesh_tcf2h")
 skeleton = NodePath("../../..")
 
 [node name="Zombie" parent="." instance=ExtResource("2_tcf2h")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.166057, 0, -0.5973695)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.0649, -9.536743e-07, 0.48238558)
 speed = 4.0
+
+[node name="Zombie2" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.345608, 9.536743e-07, -1.2104142)
+speed = 4.0
+
+[node name="Zombie3" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.021482, 0, -0.9060455)
+speed = 4.0
+
+[node name="Zombie4" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.638874, 0, 0.22285312)
+speed = 4.0
+
+[node name="Zombie5" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.328711, 0, -1.5391021)
+speed = 4.0
+
+[node name="Zombie6" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.871881, 0, -2.0680218)
+speed = 4.0
+
+[node name="Zombie7" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.542453, 0, -0.4251266)
+speed = 4.0
+
+[node name="Zombie8" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.410244, 0, -2.2804322)
+speed = 4.0
+
+[node name="Zombie9" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.192532, -9.536743e-07, -1.5619678)
+speed = 4.0
+
+[node name="Zombie10" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.47324, 9.536743e-07, -3.2547677)
+speed = 4.0
+
+[node name="Zombie11" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.149115, 0, -2.950399)
+speed = 4.0
+
+[node name="Zombie12" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.766506, 0, -1.8215003)
+speed = 4.0
+
+[node name="Zombie13" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.456343, 0, -3.5834556)
+speed = 4.0
+
+[node name="Zombie14" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.999513, 0, -4.1123753)
+speed = 4.0
+
+[node name="Zombie15" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.670085, 0, -2.46948)
+speed = 4.0
+
+[node name="Zombie16" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.537876, 0, -4.3247857)
+speed = 4.0
+
+[node name="Zombie17" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.646595, -9.536743e-07, 2.0271978)
+speed = 4.0
+
+[node name="Zombie18" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.927303, 9.536743e-07, 0.33439803)
+speed = 4.0
+
+[node name="Zombie19" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.603178, 0, 0.63876677)
+speed = 4.0
+
+[node name="Zombie20" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.22057, 0, 1.7676654)
+speed = 4.0
+
+[node name="Zombie21" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.910406, 0, 0.005710125)
+speed = 4.0
+
+[node name="Zombie22" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.453575, 0, -0.5232096)
+speed = 4.0
+
+[node name="Zombie23" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.12415, 0, 1.1196856)
+speed = 4.0
+
+[node name="Zombie24" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.99194, 0, -0.73562)
+speed = 4.0
+
+[node name="Zombie25" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.79005, -2.861023e-06, -5.5135174)
+speed = 4.0
+
+[node name="Zombie26" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.070757, -9.536743e-07, -7.206317)
+speed = 4.0
+
+[node name="Zombie27" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.746632, -1.9073486e-06, -6.9019485)
+speed = 4.0
+
+[node name="Zombie28" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.364023, -1.9073486e-06, -5.77305)
+speed = 4.0
+
+[node name="Zombie29" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.05386, -1.9073486e-06, -7.535005)
+speed = 4.0
+
+[node name="Zombie30" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.59703, -1.9073486e-06, -8.063925)
+speed = 4.0
+
+[node name="Zombie31" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.267602, -1.9073486e-06, -6.4210296)
+speed = 4.0
+
+[node name="Zombie32" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.135393, -1.9073486e-06, -8.276335)
+speed = 4.0
+
+[node name="Zombie33" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.91768, -2.861023e-06, -7.557871)
+speed = 4.0
+
+[node name="Zombie34" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.19839, -9.536743e-07, -9.25067)
+speed = 4.0
+
+[node name="Zombie35" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.874264, -1.9073486e-06, -8.946302)
+speed = 4.0
+
+[node name="Zombie36" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.491655, -1.9073486e-06, -7.8174033)
+speed = 4.0
+
+[node name="Zombie37" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.181492, -1.9073486e-06, -9.579359)
+speed = 4.0
+
+[node name="Zombie38" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.724663, -1.9073486e-06, -10.108278)
+speed = 4.0
+
+[node name="Zombie39" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.395233, -1.9073486e-06, -8.465384)
+speed = 4.0
+
+[node name="Zombie40" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.263025, -1.9073486e-06, -10.320688)
+speed = 4.0
+
+[node name="Zombie41" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.371744, -2.861023e-06, -3.9687052)
+speed = 4.0
+
+[node name="Zombie42" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.652452, -9.536743e-07, -5.6615047)
+speed = 4.0
+
+[node name="Zombie43" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.328327, -1.9073486e-06, -5.3571362)
+speed = 4.0
+
+[node name="Zombie44" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.945719, -1.9073486e-06, -4.2282376)
+speed = 4.0
+
+[node name="Zombie45" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.635555, -1.9073486e-06, -5.990193)
+speed = 4.0
+
+[node name="Zombie46" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.178724, -1.9073486e-06, -6.5191126)
+speed = 4.0
+
+[node name="Zombie47" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.849298, -1.9073486e-06, -4.8762174)
+speed = 4.0
+
+[node name="Zombie48" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.717089, -1.9073486e-06, -6.731523)
+speed = 4.0
+
+[node name="Zombie49" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.0810227, -9.536743e-07, -5.019384)
+speed = 4.0
+
+[node name="Zombie50" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.36173, 9.536743e-07, -6.712184)
+speed = 4.0
+
+[node name="Zombie51" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.037605, 0, -6.407815)
+speed = 4.0
+
+[node name="Zombie52" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.6549964, 0, -5.2789164)
+speed = 4.0
+
+[node name="Zombie53" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.344833, 0, -7.0408716)
+speed = 4.0
+
+[node name="Zombie54" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8880029, 0, -7.5697913)
+speed = 4.0
+
+[node name="Zombie55" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5585752, 0, -5.926896)
+speed = 4.0
+
+[node name="Zombie56" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.4263663, 0, -7.782202)
+speed = 4.0
+
+[node name="Zombie57" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.208654, -9.536743e-07, -7.0637374)
+speed = 4.0
+
+[node name="Zombie58" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.489363, 9.536743e-07, -8.756537)
+speed = 4.0
+
+[node name="Zombie59" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.165237, 0, -8.452168)
+speed = 4.0
+
+[node name="Zombie60" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.782629, 0, -7.32327)
+speed = 4.0
+
+[node name="Zombie61" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.472465, 0, -9.085225)
+speed = 4.0
+
+[node name="Zombie62" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.015635, 0, -9.614145)
+speed = 4.0
+
+[node name="Zombie63" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.6862073, 0, -7.9712496)
+speed = 4.0
+
+[node name="Zombie64" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.553999, 0, -9.826555)
+speed = 4.0
+
+[node name="Zombie65" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.662718, -9.536743e-07, -3.4745717)
+speed = 4.0
+
+[node name="Zombie66" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.943426, 9.536743e-07, -5.1673717)
+speed = 4.0
+
+[node name="Zombie67" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.619301, 0, -4.863003)
+speed = 4.0
+
+[node name="Zombie68" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.236692, 0, -3.7341042)
+speed = 4.0
+
+[node name="Zombie69" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9265285, 0, -5.4960594)
+speed = 4.0
+
+[node name="Zombie70" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.469698, 0, -6.024979)
+speed = 4.0
+
+[node name="Zombie71" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.140272, 0, -4.382084)
+speed = 4.0
+
+[node name="Zombie72" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.008062, 0, -6.2373896)
+speed = 4.0
+
+[node name="Zombie73" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.806172, -2.861023e-06, -11.015287)
+speed = 4.0
+
+[node name="Zombie74" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.08688, -9.536743e-07, -12.708086)
+speed = 4.0
+
+[node name="Zombie75" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.762754, -1.9073486e-06, -12.403718)
+speed = 4.0
+
+[node name="Zombie76" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.380146, -1.9073486e-06, -11.274819)
+speed = 4.0
+
+[node name="Zombie77" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.069982, -1.9073486e-06, -13.036775)
+speed = 4.0
+
+[node name="Zombie78" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.613152, -1.9073486e-06, -13.565695)
+speed = 4.0
+
+[node name="Zombie79" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2837243, -1.9073486e-06, -11.922799)
+speed = 4.0
+
+[node name="Zombie80" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.1515155, -1.9073486e-06, -13.778105)
+speed = 4.0
+
+[node name="Zombie81" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.933804, -2.861023e-06, -13.059641)
+speed = 4.0
+
+[node name="Zombie82" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.214512, -9.536743e-07, -14.7524395)
+speed = 4.0
+
+[node name="Zombie83" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.890387, -1.9073486e-06, -14.448072)
+speed = 4.0
+
+[node name="Zombie84" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.507778, -1.9073486e-06, -13.319173)
+speed = 4.0
+
+[node name="Zombie85" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.197614, -1.9073486e-06, -15.081129)
+speed = 4.0
+
+[node name="Zombie86" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.740786, -1.9073486e-06, -15.610048)
+speed = 4.0
+
+[node name="Zombie87" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.411356, -1.9073486e-06, -13.967154)
+speed = 4.0
+
+[node name="Zombie88" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.279148, -1.9073486e-06, -15.822458)
+speed = 4.0
+
+[node name="Zombie89" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.387867, -2.861023e-06, -9.470474)
+speed = 4.0
+
+[node name="Zombie90" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.668575, -9.536743e-07, -11.163275)
+speed = 4.0
+
+[node name="Zombie91" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.34445, -1.9073486e-06, -10.858906)
+speed = 4.0
+
+[node name="Zombie92" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.961842, -1.9073486e-06, -9.730007)
+speed = 4.0
+
+[node name="Zombie93" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.651678, -1.9073486e-06, -11.491962)
+speed = 4.0
+
+[node name="Zombie94" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.194847, -1.9073486e-06, -12.020882)
+speed = 4.0
+
+[node name="Zombie95" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.865421, -1.9073486e-06, -10.377987)
+speed = 4.0
+
+[node name="Zombie96" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.7332115, -1.9073486e-06, -12.233293)
+speed = 4.0
+
+[node name="Zombie97" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.59103, -9.536743e-07, 12.805979)
+speed = 4.0
+
+[node name="Zombie98" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.871738, 9.536743e-07, 11.113179)
+speed = 4.0
+
+[node name="Zombie99" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.547613, 0, 11.417548)
+speed = 4.0
+
+[node name="Zombie100" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.165005, 0, 12.546447)
+speed = 4.0
+
+[node name="Zombie101" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.8548408, 0, 10.784492)
+speed = 4.0
+
+[node name="Zombie102" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.39801, 0, 10.255571)
+speed = 4.0
+
+[node name="Zombie103" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.068583, 0, 11.898467)
+speed = 4.0
+
+[node name="Zombie104" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.936375, 0, 10.043161)
+speed = 4.0
+
+[node name="Zombie105" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.718662, -9.536743e-07, 10.761625)
+speed = 4.0
+
+[node name="Zombie106" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.999371, 9.536743e-07, 9.068826)
+speed = 4.0
+
+[node name="Zombie107" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.675245, 0, 9.373195)
+speed = 4.0
+
+[node name="Zombie108" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.292637, 0, 10.502093)
+speed = 4.0
+
+[node name="Zombie109" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.982473, 0, 8.740138)
+speed = 4.0
+
+[node name="Zombie110" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.525642, 0, 8.211218)
+speed = 4.0
+
+[node name="Zombie111" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.196215, 0, 9.854114)
+speed = 4.0
+
+[node name="Zombie112" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.064007, 0, 7.998808)
+speed = 4.0
+
+[node name="Zombie113" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.172726, -9.536743e-07, 14.350792)
+speed = 4.0
+
+[node name="Zombie114" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.453434, 9.536743e-07, 12.657991)
+speed = 4.0
+
+[node name="Zombie115" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.129309, 0, 12.96236)
+speed = 4.0
+
+[node name="Zombie116" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.7467, 0, 14.091259)
+speed = 4.0
+
+[node name="Zombie117" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.436537, 0, 12.329304)
+speed = 4.0
+
+[node name="Zombie118" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.979706, 0, 11.8003845)
+speed = 4.0
+
+[node name="Zombie119" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.65028, 0, 13.443279)
+speed = 4.0
+
+[node name="Zombie120" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.51807, 0, 11.587974)
+speed = 4.0
+
+[node name="Zombie121" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.316179, -2.861023e-06, 6.8100758)
+speed = 4.0
+
+[node name="Zombie122" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.596888, -9.536743e-07, 5.117277)
+speed = 4.0
+
+[node name="Zombie123" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.272762, -1.9073486e-06, 5.421645)
+speed = 4.0
+
+[node name="Zombie124" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.890154, -1.9073486e-06, 6.550544)
+speed = 4.0
+
+[node name="Zombie125" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.57999, -1.9073486e-06, 4.7885885)
+speed = 4.0
+
+[node name="Zombie126" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.123159, -1.9073486e-06, 4.2596684)
+speed = 4.0
+
+[node name="Zombie127" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.793732, -1.9073486e-06, 5.902564)
+speed = 4.0
+
+[node name="Zombie128" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.661524, -1.9073486e-06, 4.0472584)
+speed = 4.0
+
+[node name="Zombie129" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.443811, -2.861023e-06, 4.7657223)
+speed = 4.0
+
+[node name="Zombie130" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.72452, -9.536743e-07, 3.0729237)
+speed = 4.0
+
+[node name="Zombie131" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.400394, -1.9073486e-06, 3.3772907)
+speed = 4.0
+
+[node name="Zombie132" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.017786, -1.9073486e-06, 4.5061903)
+speed = 4.0
+
+[node name="Zombie133" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.707623, -1.9073486e-06, 2.744234)
+speed = 4.0
+
+[node name="Zombie134" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.250793, -1.9073486e-06, 2.2153149)
+speed = 4.0
+
+[node name="Zombie135" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.921364, -1.9073486e-06, 3.8582096)
+speed = 4.0
+
+[node name="Zombie136" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.789156, -1.9073486e-06, 2.002905)
+speed = 4.0
+
+[node name="Zombie137" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.897875, -2.861023e-06, 8.354889)
+speed = 4.0
+
+[node name="Zombie138" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.178583, -9.536743e-07, 6.6620884)
+speed = 4.0
+
+[node name="Zombie139" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.854458, -1.9073486e-06, 6.9664574)
+speed = 4.0
+
+[node name="Zombie140" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.47185, -1.9073486e-06, 8.095356)
+speed = 4.0
+
+[node name="Zombie141" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.161686, -1.9073486e-06, 6.3334007)
+speed = 4.0
+
+[node name="Zombie142" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.704855, -1.9073486e-06, 5.8044815)
+speed = 4.0
+
+[node name="Zombie143" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.375429, -1.9073486e-06, 7.4473763)
+speed = 4.0
+
+[node name="Zombie144" parent="." instance=ExtResource("2_tcf2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.24322, -1.9073486e-06, 5.5920706)
+speed = 4.0
+
+[node name="zombies" type="Node" parent="."]

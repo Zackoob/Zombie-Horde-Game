@@ -1,10 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dtwcxekmoaf4g"]
+[gd_scene load_steps=7 format=3 uid="uid://dtwcxekmoaf4g"]
 
 [ext_resource type="PackedScene" uid="uid://ciyxmm6ty5ja7" path="res://player/player.tscn" id="1_6xmxd"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_6xmxd"]
-sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
-ground_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
 
 [sub_resource type="Sky" id="Sky_tcf2h"]
 sky_material = SubResource("ProceduralSkyMaterial_6xmxd")
@@ -17,21 +17,31 @@ glow_enabled = true
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_tcf2h"]
 
-[node name="World" type="Node3D"]
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_6xmxd"]
+data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866025, -0.433013, 0.25, 0, 0.5, 0.866025, -0.5, 0.75, -0.433013, 0, 0, 0)
-shadow_enabled = true
+[node name="World" type="Node3D"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_4717r")
 
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+directional_shadow_max_distance = 1.0
+
 [node name="Node3D" parent="." instance=ExtResource("1_6xmxd")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.40071, 0, 0.866003)
+acceleration = 20.0
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(3.11813, 0, 0, 0, 1, 0, 0, 0, 5.8273, 0, 0, 0)
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.001, -0.6517515, 0)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
+transform = Transform3D(3.11813, 0, 0, 0, 1, 0, 0, 0, 5.8273, -0.001, 0.6517515, 0)
 mesh = SubResource("PlaneMesh_tcf2h")
 skeleton = NodePath("../..")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(3.11813, 0, 0, 0, 1, 0, 0, 0, 5.8273, -0.001, 0.6517515, 0)
+shape = SubResource("ConcavePolygonShape3D_6xmxd")

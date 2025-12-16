@@ -20,7 +20,7 @@ func _physics_process(delta: float) -> void:
 	
 	move_and_slide()
 	
-	var distance_travelled = self.position - previous_position
+	var distance_travelled =position - previous_position
 	var actual_speed = distance_travelled.length() / delta
 	
 	var touching_player : bool = false
@@ -33,4 +33,4 @@ func _physics_process(delta: float) -> void:
 	if speed > 0 && actual_speed < speed * 0.25 && !touching_player:
 		velocity.y = 4
 	
-	previous_position = self.position
+	previous_position = position

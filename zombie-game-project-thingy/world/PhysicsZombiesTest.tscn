@@ -84,8 +84,7 @@ shape = SubResource("ConcavePolygonShape3D_3rtdu")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.757771, 2.3841858e-07, -0.74968874)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -93,8 +92,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.3391285, 2.3841858e-07, -1.8737359)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -102,8 +100,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.017788, -4.7683716e-07, -0.46032393)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -111,8 +108,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.159947, -9.536743e-07, -2.8156817)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -120,8 +116,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.530541, -9.536743e-07, -1.9621233)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -129,8 +124,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3821535, -9.536743e-07, -3.3865867)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -138,8 +132,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.264443, -1.4305115e-06, -0.2218132)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -147,8 +140,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.129465, -9.536743e-07, -1.8129869)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -156,8 +148,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.019102, 2.3841858e-07, 3.1472974)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -165,8 +156,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.60046, 2.3841858e-07, 2.02325)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -174,8 +164,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.2791195, -4.7683716e-07, 3.4366622)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -183,8 +172,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.421279, -9.536743e-07, 1.0813043)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -192,8 +180,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.791873, -9.536743e-07, 1.9348627)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -201,8 +188,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.643485, -9.536743e-07, 0.51039934)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -210,8 +196,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.525775, -1.4305115e-06, 3.6751728)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -219,8 +204,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.390797, -9.536743e-07, 2.0839992)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -228,8 +212,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.01387, 2.3841858e-07, -0.6529236)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -237,8 +220,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.595228, 2.3841858e-07, -1.7769709)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -246,8 +228,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.273888, -4.7683716e-07, -0.36355877)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -255,8 +236,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.416047, -9.536743e-07, -2.7189167)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -264,8 +244,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.786641, -9.536743e-07, -1.8653582)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -273,8 +252,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.638253, -9.536743e-07, -3.2898216)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -282,8 +260,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.520543, -1.4305115e-06, -0.12504816)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -291,8 +268,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.385565, -9.536743e-07, -1.7162218)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -300,8 +276,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.322667, 2.3841858e-07, 3.3893209)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -309,8 +284,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.904025, 2.3841858e-07, 2.2652736)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -318,8 +292,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.582684, -4.7683716e-07, 3.6786857)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -327,8 +300,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.724844, -9.536743e-07, 1.3233278)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -336,8 +308,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.095438, -9.536743e-07, 2.176886)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -345,8 +316,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.94705, -9.536743e-07, 0.7524228)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -354,8 +324,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.82934, -1.4305115e-06, 3.9171963)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -363,8 +332,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.694363, -9.536743e-07, 2.3260226)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -372,8 +340,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.234297, 2.3841858e-07, -4.8440413)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -381,8 +348,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.815655, 2.3841858e-07, -5.9680886)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -390,8 +356,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.494313, -4.7683716e-07, -4.5546765)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -399,8 +364,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.636474, -9.536743e-07, -6.910034)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -408,8 +372,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.007068, -9.536743e-07, -6.056476)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -417,8 +380,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.85868, -9.536743e-07, -7.4809394)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -426,8 +388,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.74097, -1.4305115e-06, -4.316166)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -435,8 +396,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.605992, -9.536743e-07, -5.9073396)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -444,8 +404,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.7790437, 2.3841858e-07, -4.736851)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -453,8 +412,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3604016, 2.3841858e-07, -5.8608985)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -462,8 +420,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.039061, -4.7683716e-07, -4.4474864)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -471,8 +428,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.1812205, -9.536743e-07, -6.802844)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -480,8 +436,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.551815, -9.536743e-07, -5.949286)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -489,8 +444,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.403427, -9.536743e-07, -7.3737493)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -498,8 +452,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.285717, -1.4305115e-06, -4.208976)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -507,8 +460,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.15074, -9.536743e-07, -5.8001494)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -516,8 +468,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.982475, 2.3844416, -1.100021)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -525,8 +476,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.563833, 2.3844416, -2.2240682)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -534,8 +484,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.242493, 2.384441, -0.8106562)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -543,8 +492,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.384652, 2.3844404, -3.166014)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -552,8 +500,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.755246, 2.3844404, -2.3124557)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -561,8 +508,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.606858, 2.3844404, -3.736919)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -570,8 +516,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.489148, 2.38444, -0.57214546)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -579,8 +524,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.35417, 2.3844404, -2.163319)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -588,8 +532,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.243807, 2.3844416, 2.7969651)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -597,8 +540,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.825165, 2.3844416, 1.6729178)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -606,8 +548,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.503824, 2.384441, 3.08633)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -615,8 +556,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.645984, 2.3844404, 0.73097205)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -624,8 +564,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.016578, 2.3844404, 1.5845305)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -633,8 +572,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.86819, 2.3844404, 0.16006708)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -642,8 +580,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.75048, 2.38444, 3.3248405)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -651,8 +588,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.615501, 2.3844404, 1.7336669)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -660,8 +596,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.238575, 2.3844416, -1.0032558)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -669,8 +604,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.819933, 2.3844416, -2.1273031)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -678,8 +612,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.498592, 2.384441, -0.713891)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -687,8 +620,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.640752, 2.3844404, -3.069249)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -696,8 +628,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.011345, 2.3844404, -2.2156906)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -705,8 +636,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.862958, 2.3844404, -3.640154)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -714,8 +644,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.745248, 2.38444, -0.47538042)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -723,8 +652,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.61027, 2.3844404, -2.066554)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -732,8 +660,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.547372, 2.3844416, 3.0389886)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -741,8 +668,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.12873, 2.3844416, 1.9149413)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -750,8 +676,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.807388, 2.384441, 3.3283534)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -759,8 +684,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.949549, 2.3844404, 0.9729955)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -768,8 +692,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.320143, 2.3844404, 1.8265538)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -777,8 +700,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.171755, 2.3844404, 0.40209055)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -786,8 +708,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.054045, 2.38444, 3.566864)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -795,8 +716,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.919067, 2.3844404, 1.9756904)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -804,8 +724,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.459002, 2.3844416, -5.1943736)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -813,8 +732,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0403595, 2.3844416, -6.318421)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -822,8 +740,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.719018, 2.384441, -4.905009)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -831,8 +748,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.861178, 2.3844404, -7.2603664)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -840,8 +756,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.231772, 2.3844404, -6.4068084)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -849,8 +764,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.0833845, 2.3844404, -7.8312716)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -858,8 +772,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.965674, 2.38444, -4.666498)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -867,8 +780,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.830697, 2.3844404, -6.257672)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -876,8 +788,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.0037484, 2.3844416, -5.0871835)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -885,8 +796,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.5851064, 2.3844416, -6.2112308)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -894,8 +804,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.263765, 2.384441, -4.7978187)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -903,8 +812,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.4059253, 2.3844404, -7.1531763)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -912,8 +820,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.77652, 2.3844404, -6.2996182)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -921,8 +828,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.628132, 2.3844404, -7.7240815)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -930,8 +836,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.510422, 2.38444, -4.559308)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -939,8 +844,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.375444, 2.3844404, -6.1504817)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -948,8 +852,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.178009, 2.3841858e-07, 3.6001763)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -957,8 +860,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.759367, 2.3841858e-07, 2.476129)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -966,8 +868,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4380264, -4.7683716e-07, 3.8895411)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -975,8 +876,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5801859, -9.536743e-07, 1.5341833)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -984,8 +884,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.95078, -9.536743e-07, 2.3877416)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -993,8 +892,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.802392, -9.536743e-07, 0.9632783)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1002,8 +900,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.684682, -1.4305115e-06, 4.1280518)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1011,8 +908,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5497036, -9.536743e-07, 2.536878)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1020,8 +916,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4393406, 2.3841858e-07, 7.4971623)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1029,8 +924,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0206985, 2.3841858e-07, 6.373115)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1038,8 +932,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.699358, -4.7683716e-07, 7.786527)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1047,8 +940,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.8415174, -9.536743e-07, 5.4311695)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1056,8 +948,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.2121115, -9.536743e-07, 6.2847276)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1065,8 +956,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.0637236, -9.536743e-07, 4.8602643)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1074,8 +964,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.9460135, -1.4305115e-06, 8.025038)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1083,8 +972,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.811035, -9.536743e-07, 6.433864)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1092,8 +980,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.4341087, 2.3841858e-07, 3.6969414)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1101,8 +988,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.0154667, 2.3841858e-07, 2.572894)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1110,8 +996,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.694126, -4.7683716e-07, 3.9863062)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1119,8 +1004,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.8362856, -9.536743e-07, 1.6309483)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1128,8 +1012,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.20688, -9.536743e-07, 2.4845066)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1137,8 +1020,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.0584917, -9.536743e-07, 1.0600433)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1146,8 +1028,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9407816, -1.4305115e-06, 4.224817)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1155,8 +1036,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.8058033, -9.536743e-07, 2.6336432)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1164,8 +1044,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.7429056, 2.3841858e-07, 7.739186)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1173,8 +1052,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.3242636, 2.3841858e-07, 6.6151385)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1182,8 +1060,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.002922, -4.7683716e-07, 8.028551)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1191,8 +1068,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.145082, -9.536743e-07, 5.673193)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1200,8 +1076,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5156765, -9.536743e-07, 6.526751)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1209,8 +1084,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.367289, -9.536743e-07, 5.102288)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1218,8 +1092,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.249578, -1.4305115e-06, 8.267061)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1227,8 +1100,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.114601, -9.536743e-07, 6.6758876)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1236,8 +1108,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6545353, 2.3841858e-07, -0.4941764)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1245,8 +1116,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2358932, 2.3841858e-07, -1.6182237)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1254,8 +1124,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9145517, -4.7683716e-07, -0.20481157)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1263,8 +1132,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.056712, -9.536743e-07, -2.5601692)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1272,8 +1140,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.427306, -9.536743e-07, -1.7066112)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1281,8 +1148,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2789183, -9.536743e-07, -3.1310744)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1290,8 +1156,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.161208, -1.4305115e-06, 0.033699036)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1299,8 +1164,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.026231, -9.536743e-07, -1.5574746)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1308,8 +1172,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.80071783, 2.3841858e-07, -0.38698626)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1317,8 +1180,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2193599, 2.3841858e-07, -1.5110335)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1326,8 +1188,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4592991, -4.7683716e-07, -0.09762144)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1335,8 +1196,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.39854097, -9.536743e-07, -2.452979)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1344,8 +1204,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9720535, -9.536743e-07, -1.599421)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1353,8 +1212,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8236656, -9.536743e-07, -3.0238843)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1362,8 +1220,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7059555, -1.4305115e-06, 0.14088917)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1371,8 +1228,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.57097816, -9.536743e-07, -1.4502845)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1380,8 +1236,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4027138, 2.3844416, 3.249844)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1389,8 +1244,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.98407173, 2.3844416, 2.1257968)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1398,8 +1252,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6627312, 2.384441, 3.539209)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1407,8 +1260,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8048906, 2.3844404, 1.183851)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1416,8 +1268,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1754847, 2.3844404, 2.0374093)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1425,8 +1276,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0270967, 2.3844404, 0.61294603)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1434,8 +1284,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9093866, 2.38444, 3.7777195)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1443,8 +1292,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7744083, 2.3844404, 2.1865458)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1452,8 +1300,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.6640453, 2.3844416, 7.14683)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1461,8 +1308,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2454033, 2.3844416, 6.022783)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1470,8 +1316,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9240627, 2.384441, 7.436195)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1479,8 +1324,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.066222, 2.3844404, 5.0808372)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1488,8 +1332,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.436816, 2.3844404, 5.9343953)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1497,8 +1340,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2884283, 2.3844404, 4.509932)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1506,8 +1348,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.170718, 2.38444, 7.6747055)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1515,8 +1356,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.03574, 2.3844404, 6.083532)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1524,8 +1364,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6588135, 2.3844416, 3.346609)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1533,8 +1372,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2401714, 2.3844416, 2.2225618)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1542,8 +1380,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.918831, 2.384441, 3.635974)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1551,8 +1388,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.0609903, 2.3844404, 1.280616)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1560,8 +1396,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.431583, 2.3844404, 2.1341743)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1569,8 +1404,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.2831964, 2.3844404, 0.7097111)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1578,8 +1412,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.165486, 2.38444, 3.8744845)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1587,8 +1420,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.030508, 2.3844404, 2.283311)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1596,8 +1428,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9676104, 2.3844416, 7.3888535)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1605,8 +1436,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5489683, 2.3844416, 6.2648063)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1614,8 +1444,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.227627, 2.384441, 7.6782184)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1623,8 +1452,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.369787, 2.3844404, 5.3228607)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1632,8 +1460,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.740381, 2.3844404, 6.176419)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1641,8 +1468,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.591993, 2.3844404, 4.7519555)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1650,8 +1476,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.474283, 2.38444, 7.916729)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1659,8 +1484,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.339306, 2.3844404, 6.3255553)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1668,8 +1492,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.87924, 2.3844416, -0.84450865)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1677,8 +1500,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.460598, 2.3844416, -1.9685559)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1686,8 +1508,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1392565, 2.384441, -0.55514383)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1695,8 +1516,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.281417, 2.3844404, -2.9105015)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1704,8 +1524,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.652011, 2.3844404, -2.0569434)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1713,8 +1532,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.503623, 2.3844404, -3.4814067)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1722,8 +1540,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.385913, 2.38444, -0.31663322)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1731,8 +1548,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2509356, 2.3844404, -1.9078069)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1740,8 +1556,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5760131, 2.3844416, -0.7373185)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1749,8 +1564,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.99465513, 2.3844416, -1.8613658)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1758,8 +1572,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.68400383, 2.384441, -0.4479537)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1767,8 +1580,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17383623, 2.3844404, -2.8033113)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1776,8 +1588,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1967583, 2.3844404, -1.9497533)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1785,8 +1596,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0483704, 2.3844404, -3.3742166)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1794,8 +1604,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9306602, 2.38444, -0.20944309)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1803,8 +1612,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7956829, 2.3844404, -1.8006167)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1812,8 +1620,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.46073055, 2.3841858e-07, -13.305276)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1821,8 +1628,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.04208851, 2.3841858e-07, -14.429323)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1830,8 +1636,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.720748, -4.7683716e-07, -13.015911)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1839,8 +1644,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.8629074, -9.536743e-07, -15.371268)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1848,8 +1652,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2335014, -9.536743e-07, -14.51771)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1857,8 +1660,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0851135, -9.536743e-07, -15.942173)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1866,8 +1668,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9674034, -1.4305115e-06, -12.7774)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1875,8 +1676,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8324251, -9.536743e-07, -14.368574)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1884,8 +1684,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.722062, 2.3841858e-07, -9.408289)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1893,8 +1692,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.30342, 2.3841858e-07, -10.532337)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1902,8 +1700,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9820795, -4.7683716e-07, -9.118925)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1911,8 +1708,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.124239, -9.536743e-07, -11.474282)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1920,8 +1716,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.494833, -9.536743e-07, -10.620724)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1929,8 +1724,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.346445, -9.536743e-07, -12.045187)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1938,8 +1732,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.228735, -1.4305115e-06, -8.880414)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1947,8 +1740,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.0937567, -9.536743e-07, -10.471588)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1956,8 +1748,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7168303, 2.3841858e-07, -13.20851)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1965,8 +1756,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.298188, 2.3841858e-07, -14.332558)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1974,8 +1764,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.9768476, -4.7683716e-07, -12.919146)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1983,8 +1772,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.119007, -9.536743e-07, -15.274504)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -1992,8 +1780,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.489601, -9.536743e-07, -14.420945)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2001,8 +1788,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.341213, -9.536743e-07, -15.845408)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2010,8 +1796,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.223503, -1.4305115e-06, -12.680635)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2019,8 +1804,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.088525, -9.536743e-07, -14.271809)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2028,8 +1812,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.025627, 2.3841858e-07, -9.1662655)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2037,8 +1820,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.606985, 2.3841858e-07, -10.290314)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2046,8 +1828,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.285644, -4.7683716e-07, -8.876902)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2055,8 +1836,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.427804, -9.536743e-07, -11.232259)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2064,8 +1844,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.798398, -9.536743e-07, -10.3787)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2073,8 +1852,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.65001, -9.536743e-07, -11.803164)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2082,8 +1860,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.5323, -1.4305115e-06, -8.638391)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2091,8 +1868,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.397323, -9.536743e-07, -10.229565)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2100,8 +1876,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9372568, 2.3841858e-07, -17.399628)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2109,8 +1884,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5186148, 2.3841858e-07, -18.523676)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2118,8 +1892,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.1972733, -4.7683716e-07, -17.110264)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2127,8 +1900,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3394337, -9.536743e-07, -19.465622)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2136,8 +1908,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.7100277, -9.536743e-07, -18.612062)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2145,8 +1916,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.56164, -9.536743e-07, -20.036526)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2154,8 +1924,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.4439297, -1.4305115e-06, -16.871754)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2163,8 +1932,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.3089523, -9.536743e-07, -18.462927)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2172,8 +1940,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5179963, 2.3841858e-07, -17.292439)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2181,8 +1948,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9366384, 2.3841858e-07, -18.416485)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2190,8 +1956,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2579794, -4.7683716e-07, -17.003073)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2199,8 +1964,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1158195, -9.536743e-07, -19.35843)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2208,8 +1972,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.254775, -9.536743e-07, -18.504873)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2217,8 +1980,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.10638714, -9.536743e-07, -19.929337)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2226,8 +1988,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.988677, -1.4305115e-06, -16.764563)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2235,8 +1996,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14630032, -9.536743e-07, -18.355736)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2244,8 +2004,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6854353, 2.3844416, -13.655608)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2253,8 +2012,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.26679325, 2.3844416, -14.779655)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2262,8 +2020,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9454527, 2.384441, -13.366243)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2271,8 +2028,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0876122, 2.3844404, -15.721601)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2280,8 +2036,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4582062, 2.3844404, -14.868042)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2289,8 +2044,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3098183, 2.3844404, -16.292505)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2298,8 +2052,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1921082, 2.38444, -13.127732)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2307,8 +2060,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0571299, 2.3844404, -14.718906)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2316,8 +2068,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.9467669, 2.3844416, -9.758621)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2325,8 +2076,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5281248, 2.3844416, -10.882669)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2334,8 +2084,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2067842, 2.384441, -9.469257)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2343,8 +2092,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3489437, 2.3844404, -11.824615)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2352,8 +2100,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.7195377, 2.3844404, -10.971056)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2361,8 +2108,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.57115, 2.3844404, -12.395519)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2370,8 +2116,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.4534397, 2.38444, -9.230746)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2379,8 +2124,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.3184614, 2.3844404, -10.82192)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2388,8 +2132,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.941535, 2.3844416, -13.558843)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2397,8 +2140,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.522893, 2.3844416, -14.68289)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2406,8 +2148,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.2015524, 2.384441, -13.269478)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2415,8 +2156,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.343712, 2.3844404, -15.624836)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2424,8 +2164,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.714305, 2.3844404, -14.771277)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2433,8 +2172,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.565918, 2.3844404, -16.19574)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2442,8 +2180,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.448208, 2.38444, -13.030968)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2451,8 +2188,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.3132296, 2.3844404, -14.622141)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2460,8 +2196,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.250332, 2.3844416, -9.516598)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2469,8 +2204,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.83169, 2.3844416, -10.640646)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2478,8 +2212,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.510348, 2.384441, -9.227234)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2487,8 +2220,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.6525087, 2.3844404, -11.582591)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2496,8 +2228,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.023103, 2.3844404, -10.7290325)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2505,8 +2236,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.874715, 2.3844404, -12.153496)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2514,8 +2244,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.757005, 2.38444, -8.988723)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2523,8 +2252,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.622027, 2.3844404, -10.579897)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2532,8 +2260,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.1619616, 2.3844416, -17.74996)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2541,8 +2268,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7433195, 2.3844416, -18.874008)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2550,8 +2276,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.421978, 2.384441, -17.460596)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2559,8 +2284,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5641384, 2.3844404, -19.815952)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2568,8 +2292,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.9347324, 2.3844404, -18.962395)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2577,8 +2300,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7863445, 2.3844404, -20.386858)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2586,8 +2308,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6686344, 2.38444, -17.222084)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2595,8 +2316,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.533657, 2.3844404, -18.81326)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2604,8 +2324,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2932916, 2.3844416, -17.64277)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2613,8 +2332,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7119336, 2.3844416, -18.766817)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2622,8 +2340,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03327465, 2.384441, -17.353405)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2631,8 +2348,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8911147, 2.3844404, -19.708763)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2640,8 +2356,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.4794798, 2.3844404, -18.855206)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2649,8 +2364,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.33109188, 2.3844404, -20.279669)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2658,8 +2372,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2133818, 2.38444, -17.114895)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2667,8 +2380,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07840443, 2.3844404, -18.706068)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2676,8 +2388,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.119031, 2.3841858e-07, -8.95541)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2685,8 +2396,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.537673, 2.3841858e-07, -10.079458)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2694,8 +2404,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.8590136, -4.7683716e-07, -8.666046)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2703,8 +2412,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.716854, -9.536743e-07, -11.021403)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2712,8 +2420,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.34626, -9.536743e-07, -10.167845)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2721,8 +2428,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.494648, -9.536743e-07, -11.592308)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2730,8 +2436,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.612358, -1.4305115e-06, -8.427535)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2739,8 +2444,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.7473364, -9.536743e-07, -10.018709)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2748,8 +2452,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.8576994, 2.3841858e-07, -5.0584245)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2757,8 +2460,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.2763414, 2.3841858e-07, -6.1824718)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2766,8 +2468,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.597682, -4.7683716e-07, -4.7690597)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2775,8 +2476,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4555225, -9.536743e-07, -7.1244173)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2784,8 +2484,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0849285, -9.536743e-07, -6.2708592)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2793,8 +2492,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2333164, -9.536743e-07, -7.6953225)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2802,8 +2500,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3510265, -1.4305115e-06, -4.530549)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2811,8 +2508,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4860048, -9.536743e-07, -6.1217227)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2820,8 +2516,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8629313, 2.3841858e-07, -8.858645)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2829,8 +2524,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2815733, 2.3841858e-07, -9.982693)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2838,8 +2532,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6029139, -4.7683716e-07, -8.569281)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2847,8 +2540,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.4607544, -9.536743e-07, -10.924639)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2856,8 +2548,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.09016037, -9.536743e-07, -10.07108)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2865,8 +2556,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2385483, -9.536743e-07, -11.4955435)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2874,8 +2564,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3562584, -1.4305115e-06, -8.3307705)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2883,8 +2572,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4912367, -9.536743e-07, -9.921944)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2892,8 +2580,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.55413437, 2.3841858e-07, -4.816401)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2901,8 +2588,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9727764, 2.3841858e-07, -5.9404483)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2910,8 +2596,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7058821, -4.7683716e-07, -4.5270357)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2919,8 +2604,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15195751, -9.536743e-07, -6.882394)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2928,8 +2612,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2186365, -9.536743e-07, -6.028836)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2937,8 +2620,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0702486, -9.536743e-07, -7.453299)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2946,8 +2628,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9525385, -1.4305115e-06, -4.2885256)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2955,8 +2636,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.81756115, -9.536743e-07, -5.879699)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2964,8 +2644,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6425047, 2.3841858e-07, -13.049763)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2973,8 +2652,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.0611467, 2.3841858e-07, -14.173811)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2982,8 +2660,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3824883, -4.7683716e-07, -12.760399)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -2991,8 +2668,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.240328, -9.536743e-07, -15.115756)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3000,8 +2676,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8697338, -9.536743e-07, -14.2621975)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3009,8 +2684,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0181217, -9.536743e-07, -15.686661)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3018,8 +2692,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1358318, -1.4305115e-06, -12.521888)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3027,8 +2700,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2708092, -9.536743e-07, -14.113062)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3036,8 +2708,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.097757, 2.3841858e-07, -12.942574)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3045,8 +2716,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.516399, 2.3841858e-07, -14.06662)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3054,8 +2724,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.837741, -4.7683716e-07, -12.653208)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3063,8 +2732,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.695581, -9.536743e-07, -15.008566)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3072,8 +2740,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3249865, -9.536743e-07, -14.155008)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3081,8 +2748,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.4733744, -9.536743e-07, -15.579472)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3090,8 +2756,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5910845, -1.4305115e-06, -12.414698)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3099,8 +2764,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.726062, -9.536743e-07, -14.005871)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3108,8 +2772,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.894326, 2.3844416, -9.305742)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3117,8 +2780,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.3129683, 2.3844416, -10.4297905)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3126,8 +2788,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.634309, 2.384441, -9.016378)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3135,8 +2796,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4921494, 2.3844404, -11.371736)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3144,8 +2804,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.1215553, 2.3844404, -10.518177)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3153,8 +2812,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.269943, 2.3844404, -11.94264)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3162,8 +2820,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.3876534, 2.38444, -8.777867)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3171,8 +2828,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.5226316, 2.3844404, -10.369041)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3180,8 +2836,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.6329947, 2.3844416, -5.4087567)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3189,8 +2844,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.0516367, 2.3844416, -6.532804)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3198,8 +2852,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3729773, 2.384441, -5.119392)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3207,8 +2860,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.230818, 2.3844404, -7.4747496)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3216,8 +2868,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8602238, 2.3844404, -6.6211915)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3225,8 +2876,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0086117, 2.3844404, -8.045654)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3234,8 +2884,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1263218, 2.38444, -4.8808813)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3243,8 +2892,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2613, 2.3844404, -6.472055)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3252,8 +2900,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6382265, 2.3844416, -9.208978)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3261,8 +2908,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0568686, 2.3844416, -10.333025)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3270,8 +2916,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3782091, 2.384441, -8.919613)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3279,8 +2924,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2360497, 2.3844404, -11.274971)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3288,8 +2932,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13454342, 2.3844404, -10.421412)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3297,8 +2940,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0138435, 2.3844404, -11.845876)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3306,8 +2948,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13155365, 2.38444, -8.681103)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3315,8 +2956,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.266532, 2.3844404, -10.272276)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3324,8 +2964,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.32942963, 2.3844416, -5.1667333)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3333,8 +2972,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7480717, 2.3844416, -6.2907805)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3342,8 +2980,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9305868, 2.384441, -4.8773685)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3351,8 +2988,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07274723, 2.3844404, -7.232726)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3360,8 +2996,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.4433413, 2.3844404, -6.379168)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3369,8 +3004,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2949533, 2.3844404, -7.8036313)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3378,8 +3012,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1772432, 2.38444, -4.638858)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3387,8 +3020,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0422659, 2.3844404, -6.2300315)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3396,8 +3028,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4178, 2.3844416, -13.400095)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3405,8 +3036,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.836442, 2.3844416, -14.524143)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3414,8 +3044,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1577835, 2.384441, -13.110731)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3423,8 +3052,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.015623, 2.3844404, -15.466088)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3432,8 +3060,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6450291, 2.3844404, -14.61253)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3441,8 +3068,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.793417, 2.3844404, -16.036993)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3450,8 +3076,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9111271, 2.38444, -12.87222)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3459,8 +3084,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0461044, 2.3844404, -14.463394)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3468,8 +3092,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.873053, 2.3844416, -13.292906)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3477,8 +3100,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.291695, 2.3844416, -14.416952)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3486,8 +3108,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.613036, 2.384441, -13.00354)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3495,8 +3116,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.470877, 2.3844404, -15.358898)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3504,8 +3124,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.1002817, 2.3844404, -14.505341)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3513,8 +3132,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.2486696, 2.3844404, -15.929804)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3522,8 +3140,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3663797, 2.38444, -12.76503)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3531,8 +3148,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.501357, 2.3844404, -14.356203)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3540,8 +3156,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.452019, 2.3841858e-07, 12.734546)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3549,8 +3164,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.033375, 2.3841858e-07, 11.610498)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3558,8 +3172,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.712036, -4.7683716e-07, 13.0239105)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3567,8 +3180,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.854195, -9.536743e-07, 10.668553)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3576,8 +3188,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.224789, -9.536743e-07, 11.522112)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3585,8 +3196,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.0764, -9.536743e-07, 10.097649)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3594,8 +3204,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.95869, -1.4305115e-06, 13.262422)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3603,8 +3212,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.823711, -9.536743e-07, 11.6712475)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3612,8 +3220,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.713348, 2.3841858e-07, 16.631533)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3621,8 +3228,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.294708, 2.3841858e-07, 15.507484)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3630,8 +3236,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.973366, -4.7683716e-07, 16.920897)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3639,8 +3244,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.115526, -9.536743e-07, 14.565539)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3648,8 +3252,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.48612, -9.536743e-07, 15.419098)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3657,8 +3260,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.337732, -9.536743e-07, 13.994635)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3666,8 +3268,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.220022, -1.4305115e-06, 17.159409)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3675,8 +3276,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.085045, -9.536743e-07, 15.5682335)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3684,8 +3284,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.708118, 2.3841858e-07, 12.831311)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3693,8 +3292,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.289474, 2.3841858e-07, 11.707264)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3702,8 +3300,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.968136, -4.7683716e-07, 13.120676)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3711,8 +3308,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.110294, -9.536743e-07, 10.765318)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3720,8 +3316,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.480888, -9.536743e-07, 11.618876)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3729,8 +3324,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.3325, -9.536743e-07, 10.194413)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3738,8 +3332,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.21479, -1.4305115e-06, 13.359186)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3747,8 +3340,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.079811, -9.536743e-07, 11.768013)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3756,8 +3348,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.016914, 2.3841858e-07, 16.873556)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3765,8 +3356,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.598272, 2.3841858e-07, 15.749508)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3774,8 +3364,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.276932, -4.7683716e-07, 17.16292)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3783,8 +3372,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.41909, -9.536743e-07, 14.807563)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3792,8 +3380,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.789684, -9.536743e-07, 15.661121)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3801,8 +3388,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.641296, -9.536743e-07, 14.236658)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3810,8 +3396,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.523586, -1.4305115e-06, 17.401432)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3819,8 +3404,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.38861, -9.536743e-07, 15.810257)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3828,8 +3412,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.928543, 2.3841858e-07, 8.640194)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3837,8 +3420,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.509903, 2.3841858e-07, 7.5161457)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3846,8 +3428,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.18856, -4.7683716e-07, 8.929558)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3855,8 +3436,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.33072, -9.536743e-07, 6.5741997)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3864,8 +3444,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.701315, -9.536743e-07, 7.427759)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3873,8 +3452,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.552927, -9.536743e-07, 6.003296)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3882,8 +3460,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.435217, -1.4305115e-06, 9.168068)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3891,8 +3468,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.30024, -9.536743e-07, 7.5768948)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3900,8 +3476,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.473291, 2.3841858e-07, 8.747383)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3909,8 +3484,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.054649, 2.3841858e-07, 7.623337)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3918,8 +3492,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.733308, -4.7683716e-07, 9.036749)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3927,8 +3500,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.875467, -9.536743e-07, 6.681391)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3936,8 +3508,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.246063, -9.536743e-07, 7.5349483)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3945,8 +3516,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.097675, -9.536743e-07, 6.110485)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3954,8 +3524,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.979965, -1.4305115e-06, 9.275259)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3963,8 +3532,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.844987, -9.536743e-07, 7.684086)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3972,8 +3540,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.676723, 2.3844416, 12.384213)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3981,8 +3548,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.25808, 2.3844416, 11.260166)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3990,8 +3556,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.93674, 2.384441, 12.673578)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -3999,8 +3564,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.0789, 2.3844404, 10.318221)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4008,8 +3572,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.449493, 2.3844404, 11.17178)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4017,8 +3580,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.301105, 2.3844404, 9.747316)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4026,8 +3588,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.183395, 2.38444, 12.912089)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4035,8 +3596,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.048416, 2.3844404, 11.320915)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4044,8 +3604,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.938053, 2.3844416, 16.2812)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4053,8 +3612,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.519413, 2.3844416, 15.157152)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4062,8 +3620,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.19807, 2.384441, 16.570564)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4071,8 +3628,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.34023, 2.3844404, 14.215207)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4080,8 +3636,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.710825, 2.3844404, 15.068766)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4089,8 +3644,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.562437, 2.3844404, 13.644302)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4098,8 +3652,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.444727, 2.38444, 16.809074)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4107,8 +3660,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.30975, 2.3844404, 15.217901)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4116,8 +3668,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.932823, 2.3844416, 12.480979)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4125,8 +3676,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.51418, 2.3844416, 11.356932)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4134,8 +3684,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.19284, 2.384441, 12.770344)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4143,8 +3692,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.335, 2.3844404, 10.414986)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4152,8 +3700,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.705593, 2.3844404, 11.268544)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4161,8 +3708,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.557205, 2.3844404, 9.844082)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4170,8 +3716,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.439495, 2.38444, 13.008854)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4179,8 +3724,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.304516, 2.3844404, 11.417681)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4188,8 +3732,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.24162, 2.3844416, 16.523224)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4197,8 +3740,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.822977, 2.3844416, 15.399176)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4206,8 +3748,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.501637, 2.384441, 16.812588)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4215,8 +3756,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.643795, 2.3844404, 14.457231)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4224,8 +3764,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.014389, 2.3844404, 15.310789)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4233,8 +3772,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.866001, 2.3844404, 13.886326)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4242,8 +3780,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.748291, 2.38444, 17.051098)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4251,8 +3788,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.613316, 2.3844404, 15.459925)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4260,8 +3796,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.153248, 2.3844416, 8.289862)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4269,8 +3804,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.734608, 2.3844416, 7.1658134)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4278,8 +3812,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.413265, 2.384441, 8.579226)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4287,8 +3820,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.555426, 2.3844404, 6.2238693)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4296,8 +3828,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.92602, 2.3844404, 7.077427)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4305,8 +3836,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.777632, 2.3844404, 5.6529636)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4314,8 +3844,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.659922, 2.38444, 8.817738)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4323,8 +3852,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.524944, 2.3844404, 7.2265625)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4332,8 +3860,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.697996, 2.3844416, 8.397051)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4341,8 +3868,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.279354, 2.3844416, 7.2730045)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4350,8 +3876,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.958013, 2.384441, 8.686417)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4359,8 +3884,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.100172, 2.3844404, 6.3310585)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4368,8 +3892,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.470768, 2.3844404, 7.184616)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4377,8 +3900,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.32238, 2.3844404, 5.760153)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4386,8 +3908,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.20467, 2.38444, 8.924927)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4395,8 +3916,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.06969, 2.3844404, 7.3337536)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4404,8 +3924,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.872256, 2.3841858e-07, 17.084412)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4413,8 +3932,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.453614, 2.3841858e-07, 15.960363)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4422,8 +3940,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.132274, -4.7683716e-07, 17.373775)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4431,8 +3948,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.274433, -9.536743e-07, 15.018418)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4440,8 +3956,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.645027, -9.536743e-07, 15.871977)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4449,8 +3964,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.496639, -9.536743e-07, 14.447514)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4458,8 +3972,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.378929, -1.4305115e-06, 17.612286)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4467,8 +3980,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.243951, -9.536743e-07, 16.021112)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4476,8 +3988,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.133588, 2.3841858e-07, 20.981398)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4485,8 +3996,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.714946, 2.3841858e-07, 19.85735)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4494,8 +4004,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.393605, -4.7683716e-07, 21.270761)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4503,8 +4012,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.535765, -9.536743e-07, 18.915405)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4512,8 +4020,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.906359, -9.536743e-07, 19.768963)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4521,8 +4028,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.757971, -9.536743e-07, 18.3445)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4530,8 +4036,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.640261, -1.4305115e-06, 21.509274)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4539,8 +4044,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.505282, -9.536743e-07, 19.918098)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4548,8 +4052,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.128356, 2.3841858e-07, 17.181175)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4557,8 +4060,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.709714, 2.3841858e-07, 16.057129)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4566,8 +4068,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.388373, -4.7683716e-07, 17.470541)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4575,8 +4076,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.530533, -9.536743e-07, 15.115183)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4584,8 +4084,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.901127, -9.536743e-07, 15.968741)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4593,8 +4092,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.752739, -9.536743e-07, 14.544278)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4602,8 +4100,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.635029, -1.4305115e-06, 17.709051)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4611,8 +4108,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.500051, -9.536743e-07, 16.117878)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4620,8 +4116,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.437153, 2.3841858e-07, 21.223421)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4629,8 +4124,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.018511, 2.3841858e-07, 20.099373)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4638,8 +4132,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.69717, -4.7683716e-07, 21.512787)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4647,8 +4140,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.83933, -9.536743e-07, 19.157429)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4656,8 +4148,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.209923, -9.536743e-07, 20.010986)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4665,8 +4156,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.061535, -9.536743e-07, 18.586523)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4674,8 +4164,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.943825, -1.4305115e-06, 21.751297)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4683,8 +4172,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.80885, -9.536743e-07, 20.160122)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4692,8 +4180,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.348783, 2.3841858e-07, 12.990059)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4701,8 +4188,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.9301405, 2.3841858e-07, 11.866011)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4710,8 +4196,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.608799, -4.7683716e-07, 13.279423)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4719,8 +4204,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.750959, -9.536743e-07, 10.924066)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4728,8 +4212,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.121553, -9.536743e-07, 11.777624)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4737,8 +4220,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.9731655, -9.536743e-07, 10.353161)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4746,8 +4228,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.855455, -1.4305115e-06, 13.517934)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4755,8 +4236,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.720478, -9.536743e-07, 11.92676)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4764,8 +4244,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.89353, 2.3841858e-07, 13.097248)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4773,8 +4252,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.474888, 2.3841858e-07, 11.973202)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4782,8 +4260,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.153546, -4.7683716e-07, 13.386614)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4791,8 +4268,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.295706, -9.536743e-07, 11.031256)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4800,8 +4276,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.666301, -9.536743e-07, 11.884813)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4809,8 +4284,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.517913, -9.536743e-07, 10.46035)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4818,8 +4292,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.400203, -1.4305115e-06, 13.625124)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4827,8 +4300,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.265225, -9.536743e-07, 12.033951)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4836,8 +4308,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.096961, 2.3844416, 16.73408)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4845,8 +4316,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.678319, 2.3844416, 15.610031)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4854,8 +4324,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.356978, 2.384441, 17.023443)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4863,8 +4332,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.499138, 2.3844404, 14.668086)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4872,8 +4340,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.869732, 2.3844404, 15.521645)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4881,8 +4348,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.721344, 2.3844404, 14.097181)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4890,8 +4356,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.603634, 2.38444, 17.261955)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4899,8 +4364,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.468656, 2.3844404, 15.67078)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4908,8 +4372,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.358293, 2.3844416, 20.631065)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4917,8 +4380,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.939651, 2.3844416, 19.507017)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4926,8 +4388,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.61831, 2.384441, 20.92043)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4935,8 +4396,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.760469, 2.3844404, 18.565071)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4944,8 +4404,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.131063, 2.3844404, 19.41863)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4953,8 +4412,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.982676, 2.3844404, 17.994167)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4962,8 +4420,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.864965, 2.38444, 21.15894)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4971,8 +4428,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.729987, 2.3844404, 19.567766)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4980,8 +4436,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.353061, 2.3844416, 16.830845)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4989,8 +4444,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.934419, 2.3844416, 15.706797)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -4998,8 +4452,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.613078, 2.384441, 17.120209)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5007,8 +4460,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.755238, 2.3844404, 14.764851)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5016,8 +4468,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.125832, 2.3844404, 15.618409)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5025,8 +4476,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.977444, 2.3844404, 14.193946)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5034,8 +4484,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.859734, 2.38444, 17.358719)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5043,8 +4492,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.724755, 2.3844404, 15.767546)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5052,8 +4500,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.661858, 2.3844416, 20.873089)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5061,8 +4508,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.243216, 2.3844416, 19.74904)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5070,8 +4516,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.921875, 2.384441, 21.162453)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5079,8 +4524,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.064034, 2.3844404, 18.807095)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5088,8 +4532,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.434628, 2.3844404, 19.660654)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5097,8 +4540,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.28624, 2.3844404, 18.23619)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5106,8 +4548,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.16853, 2.38444, 21.400963)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5115,8 +4556,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.033554, 2.3844404, 19.80979)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5124,8 +4564,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.573487, 2.3844416, 12.639727)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5133,8 +4572,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.154845, 2.3844416, 11.515678)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5142,8 +4580,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.833504, 2.384441, 12.9290905)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5151,8 +4588,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.975664, 2.3844404, 10.573733)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5160,8 +4596,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.346258, 2.3844404, 11.427292)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5169,8 +4604,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.19787, 2.3844404, 10.002829)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5178,8 +4612,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.08016, 2.38444, 13.167602)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5187,8 +4620,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.945183, 2.3844404, 11.576427)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5196,8 +4628,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.1182346, 2.3844416, 12.746916)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5205,8 +4636,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.6995926, 2.3844416, 11.6228695)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5214,8 +4644,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.378251, 2.384441, 13.036282)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5223,8 +4652,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5204105, 2.3844404, 10.680923)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5232,8 +4660,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.8910055, 2.3844404, 11.534481)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5241,8 +4668,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.742618, 2.3844404, 10.110018)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5250,8 +4676,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.6249075, 2.38444, 13.274792)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
@@ -5259,8 +4684,7 @@ player = NodePath("../Player")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.48993, 2.3844404, 11.683619)
 axis_lock_angular_x = true
 axis_lock_angular_z = true
-mass = 20.0
-linear_damp_mode = 1
+mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 

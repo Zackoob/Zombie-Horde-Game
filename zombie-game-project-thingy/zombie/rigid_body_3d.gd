@@ -3,7 +3,8 @@ extends RigidBody3D
 @export var player : Node
 @export var speed : float = 8.0
 #@export var speed_threshold : float = 0.25 # % of speed var to determine when zombie should climb
-@export var wall_threshold : float = 1 # Distance from wall before enemies start climbing
+@export var wall_threshold : float = 0.8 # Distance from wall before enemies start climbing
+@export var ground_threshold : float = 0.5
 
 var previous_position : Vector3
 var is_climbing : bool = false
@@ -28,7 +29,7 @@ func _physics_process(delta: float) -> void:
 	else:
 		is_climbing = false
 	if is_climbing:
-		apply_central_impulse(Vector3(0, 6, 0))
+		apply_central_impulse(Vector3(0, 4, 0))
 
 func check_wall():
 	var ray = get_world_3d().direct_space_state 
@@ -41,8 +42,9 @@ func check_wall():
 	if result:
 		var wall_pos = result.position
 		var distance = (wall_pos - position).length()
+		var on_ground : float = randf_range(0, 1)
+		
 		if distance < wall_threshold:
 			is_climbing = true
 		else:
 			is_climbing = false
-		

@@ -4688,5 +4688,4613 @@ mass = 5.0
 linear_damp = 3.0
 player = NodePath("../Player")
 
+[node name="PhysicsBodyZombie577" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.22726, 2.3841858e-07, -10.153956)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie578" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.808619, 2.3841858e-07, -11.278004)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie579" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.487278, -4.7683716e-07, -9.864592)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie580" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.629436, -9.536743e-07, -12.219949)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie581" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.00003, -9.536743e-07, -11.36639)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie582" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.851643, -9.536743e-07, -12.7908535)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie583" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.733932, -1.4305115e-06, -9.6260805)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie584" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.598955, -9.536743e-07, -11.217255)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie585" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.488592, 2.3841858e-07, -6.25697)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie586" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.06995, 2.3841858e-07, -7.381017)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie587" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.74861, -4.7683716e-07, -5.967605)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie588" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.89077, -9.536743e-07, -8.322963)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie589" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.261364, -9.536743e-07, -7.4694047)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie590" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.112976, -9.536743e-07, -8.8938675)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie591" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.995266, -1.4305115e-06, -5.7290945)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie592" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.860287, -9.536743e-07, -7.320268)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie593" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.48336, 2.3841858e-07, -10.057191)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie594" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.064718, 2.3841858e-07, -11.181238)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie595" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.743378, -4.7683716e-07, -9.767826)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie596" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.885536, -9.536743e-07, -12.123184)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie597" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.25613, -9.536743e-07, -11.269626)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie598" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.107742, -9.536743e-07, -12.694089)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie599" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.990032, -1.4305115e-06, -9.529316)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie600" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.855057, -9.536743e-07, -11.120489)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie601" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.792156, 2.3841858e-07, -6.0149465)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie602" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.373516, 2.3841858e-07, -7.1389937)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie603" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.052174, -4.7683716e-07, -5.7255816)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie604" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.194336, -9.536743e-07, -8.080939)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie605" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.564926, -9.536743e-07, -7.227381)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie606" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.416542, -9.536743e-07, -8.651844)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie607" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.29883, -1.4305115e-06, -5.487071)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie608" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.163853, -9.536743e-07, -7.0782447)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie609" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.703787, 2.3841858e-07, -14.248308)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie610" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.285145, 2.3841858e-07, -15.372356)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie611" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.963802, -4.7683716e-07, -13.958944)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie612" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.105965, -9.536743e-07, -16.3143)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie613" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.47656, -9.536743e-07, -15.460743)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie614" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.32817, -9.536743e-07, -16.885206)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie615" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.21046, -1.4305115e-06, -13.720433)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie616" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.075481, -9.536743e-07, -15.311607)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie617" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.248533, 2.3841858e-07, -14.141119)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie618" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.829891, 2.3841858e-07, -15.265165)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie619" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.50855, -4.7683716e-07, -13.851753)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie620" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.650711, -9.536743e-07, -16.207111)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie621" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.021305, -9.536743e-07, -15.353554)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie622" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.872917, -9.536743e-07, -16.778017)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie623" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.755207, -1.4305115e-06, -13.613243)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie624" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.62023, -9.536743e-07, -15.204416)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie625" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.451965, 2.3844416, -10.504289)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie626" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.033323, 2.3844416, -11.628336)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie627" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.711983, 2.384441, -10.214924)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie628" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.854141, 2.3844404, -12.570281)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie629" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.224735, 2.3844404, -11.7167225)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie630" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.076347, 2.3844404, -13.141186)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie631" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.958637, 2.38444, -9.976413)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie632" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.82366, 2.3844404, -11.567587)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie633" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.713297, 2.3844416, -6.607302)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie634" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.294655, 2.3844416, -7.7313495)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie635" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.973314, 2.384441, -6.3179374)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie636" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.115475, 2.3844404, -8.673295)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie637" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.48607, 2.3844404, -7.819737)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie638" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.33768, 2.3844404, -9.2442)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie639" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.21997, 2.38444, -6.079427)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie640" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.084991, 2.3844404, -7.6706004)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie641" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.708065, 2.3844416, -10.407523)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie642" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.289423, 2.3844416, -11.53157)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie643" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.968082, 2.384441, -10.118158)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie644" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.11024, 2.3844404, -12.473516)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie645" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.480835, 2.3844404, -11.619958)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie646" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.332447, 2.3844404, -13.044421)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie647" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.214737, 2.38444, -9.879648)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie648" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.079758, 2.3844404, -11.470821)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie649" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.01686, 2.3844416, -6.3652787)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie650" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.59822, 2.3844416, -7.489326)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie651" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.27688, 2.384441, -6.075914)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie652" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.419037, 2.3844404, -8.431272)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie653" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.789635, 2.3844404, -7.5777135)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie654" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.641243, 2.3844404, -9.002176)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie655" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.523537, 2.38444, -5.8374033)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie656" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.388557, 2.3844404, -7.428577)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie657" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.928492, 2.3844416, -14.59864)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie658" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.50985, 2.3844416, -15.722689)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie659" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.188507, 2.384441, -14.309277)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie660" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.33067, 2.3844404, -16.664635)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie661" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.701263, 2.3844404, -15.811075)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie662" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.552876, 2.3844404, -17.235538)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie663" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.435165, 2.38444, -14.0707655)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie664" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.300186, 2.3844404, -15.66194)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie665" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.473238, 2.3844416, -14.491451)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie666" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.054596, 2.3844416, -15.615498)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie667" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.733255, 2.384441, -14.2020855)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie668" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.875416, 2.3844404, -16.557444)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie669" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.24601, 2.3844404, -15.703886)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie670" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.097622, 2.3844404, -17.12835)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie671" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.979912, 2.38444, -13.963575)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie672" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.844934, 2.3844404, -15.554749)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie673" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6475, 2.3841858e-07, -5.804091)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie674" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.228857, 2.3841858e-07, -6.9281383)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie675" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.907516, -4.7683716e-07, -5.514726)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie676" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.049675, -9.536743e-07, -7.870084)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie677" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.420269, -9.536743e-07, -7.0165257)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie678" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.271881, -9.536743e-07, -8.440989)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie679" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.154171, -1.4305115e-06, -5.2762156)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie680" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.019194, -9.536743e-07, -6.867389)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie681" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.90883, 2.3841858e-07, -1.907105)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie682" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.490189, 2.3841858e-07, -3.0311522)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie683" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.168848, -4.7683716e-07, -1.6177402)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie684" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.311008, -9.536743e-07, -3.9730978)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie685" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.681602, -9.536743e-07, -3.1195397)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie686" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.533215, -9.536743e-07, -4.544003)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie687" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.415504, -1.4305115e-06, -1.3792295)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie688" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.280525, -9.536743e-07, -2.9704032)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie689" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.903599, 2.3841858e-07, -5.707326)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie690" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.484957, 2.3841858e-07, -6.831373)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie691" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.163616, -4.7683716e-07, -5.417961)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie692" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.305775, -9.536743e-07, -7.7733192)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie693" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.676369, -9.536743e-07, -6.9197607)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie694" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.52798, -9.536743e-07, -8.344224)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie695" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.41027, -1.4305115e-06, -5.1794505)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie696" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.275293, -9.536743e-07, -6.770624)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie697" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.212395, 2.3841858e-07, -1.6650815)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie698" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.793755, 2.3841858e-07, -2.7891288)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie699" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.472412, -4.7683716e-07, -1.3757162)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie700" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.614573, -9.536743e-07, -3.7310743)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie701" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.985167, -9.536743e-07, -2.8775163)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie702" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.836779, -9.536743e-07, -4.3019795)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie703" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.719069, -1.4305115e-06, -1.1372061)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie704" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.584091, -9.536743e-07, -2.7283797)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie705" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.124025, 2.3841858e-07, -9.898443)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie706" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.705383, 2.3841858e-07, -11.022491)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie707" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.38404, -4.7683716e-07, -9.609079)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie708" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.526203, -9.536743e-07, -11.964437)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie709" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.896797, -9.536743e-07, -11.110878)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie710" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.74841, -9.536743e-07, -12.535341)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie711" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.6307, -1.4305115e-06, -9.370568)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie712" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.49572, -9.536743e-07, -10.961742)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie713" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.668772, 2.3841858e-07, -9.791254)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie714" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.25013, 2.3841858e-07, -10.9153)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie715" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.92879, -4.7683716e-07, -9.501888)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie716" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.07095, -9.536743e-07, -11.857246)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie717" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.441544, -9.536743e-07, -11.003689)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie718" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.293156, -9.536743e-07, -12.428152)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie719" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.175446, -1.4305115e-06, -9.263378)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie720" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.040468, -9.536743e-07, -10.854551)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie721" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.872204, 2.3844416, -6.154423)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie722" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.453562, 2.3844416, -7.2784705)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie723" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.132221, 2.384441, -5.8650584)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie724" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.27438, 2.3844404, -8.220416)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie725" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.644974, 2.3844404, -7.366858)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie726" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.496586, 2.3844404, -8.791321)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie727" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.378876, 2.38444, -5.626548)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie728" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.243898, 2.3844404, -7.2177215)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie729" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.133535, 2.3844416, -2.2574372)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie730" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.714893, 2.3844416, -3.3814845)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie731" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.393553, 2.384441, -1.9680724)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie732" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.535713, 2.3844404, -4.32343)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie733" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.906307, 2.3844404, -3.469872)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie734" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.75792, 2.3844404, -4.8943353)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie735" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.64021, 2.38444, -1.7295618)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie736" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.50523, 2.3844404, -3.3207355)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie737" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.128304, 2.3844416, -6.057658)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie738" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.709661, 2.3844416, -7.1817055)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie739" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.38832, 2.384441, -5.7682934)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie740" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.53048, 2.3844404, -8.1236515)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie741" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.901073, 2.3844404, -7.270093)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie742" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.752686, 2.3844404, -8.694556)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie743" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.634975, 2.38444, -5.529783)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie744" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.499998, 2.3844404, -7.1209564)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie745" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.4371, 2.3844416, -2.0154138)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie746" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.01846, 2.3844416, -3.139461)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie747" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.697117, 2.384441, -1.726049)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie748" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.839277, 2.3844404, -4.0814066)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie749" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.209871, 2.3844404, -3.2278485)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie750" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.061483, 2.3844404, -4.652312)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie751" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.943773, 2.38444, -1.4875383)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie752" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.808796, 2.3844404, -3.078712)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie753" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.34873, 2.3844416, -10.2487755)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie754" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.930088, 2.3844416, -11.372824)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie755" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.608746, 2.384441, -9.959412)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie756" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.750908, 2.3844404, -12.314769)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie757" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.121502, 2.3844404, -11.46121)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie758" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.973114, 2.3844404, -12.8856735)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie759" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.855404, 2.38444, -9.720901)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie760" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.720425, 2.3844404, -11.312075)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie761" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.893476, 2.3844416, -10.141586)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie762" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.474834, 2.3844416, -11.265633)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie763" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.153494, 2.384441, -9.852221)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie764" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.295654, 2.3844404, -12.207579)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie765" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.666248, 2.3844404, -11.354021)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie766" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.51786, 2.3844404, -12.778484)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie767" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.40015, 2.38444, -9.61371)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie768" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.265173, 2.3844404, -11.204884)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie769" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.930222, 2.3841858e-07, -22.709543)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie770" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.511578, 2.3841858e-07, -23.833591)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie771" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.190239, -4.7683716e-07, -22.420177)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie772" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.332397, -9.536743e-07, -24.775536)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie773" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.702991, -9.536743e-07, -23.921978)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie774" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.554604, -9.536743e-07, -25.34644)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie775" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.436893, -1.4305115e-06, -22.181667)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie776" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.301914, -9.536743e-07, -23.772842)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie777" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.191551, 2.3841858e-07, -18.812557)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie778" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.772911, 2.3841858e-07, -19.936604)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie779" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.451569, -4.7683716e-07, -18.523193)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie780" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.593729, -9.536743e-07, -20.87855)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie781" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.964323, -9.536743e-07, -20.02499)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie782" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.815935, -9.536743e-07, -21.449455)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie783" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.698225, -1.4305115e-06, -18.284681)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie784" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.563248, -9.536743e-07, -19.875854)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie785" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.186321, 2.3841858e-07, -22.612778)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie786" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.767677, 2.3841858e-07, -23.736824)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie787" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.446339, -4.7683716e-07, -22.323414)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie788" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.588497, -9.536743e-07, -24.678772)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie789" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.959091, -9.536743e-07, -23.825212)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie790" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.810703, -9.536743e-07, -25.249676)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie791" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.692993, -1.4305115e-06, -22.084904)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie792" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.558014, -9.536743e-07, -23.676075)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie793" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.495117, 2.3841858e-07, -18.570534)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie794" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.076475, 2.3841858e-07, -19.69458)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie795" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.755135, -4.7683716e-07, -18.28117)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie796" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.897293, -9.536743e-07, -20.636526)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie797" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.267887, -9.536743e-07, -19.782967)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie798" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.1195, -9.536743e-07, -21.207432)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie799" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.00179, -1.4305115e-06, -18.042658)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie800" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.866814, -9.536743e-07, -19.633831)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie801" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.406746, 2.3841858e-07, -26.803894)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie802" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.988106, 2.3841858e-07, -27.927944)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie803" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.666763, -4.7683716e-07, -26.51453)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie804" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.808924, -9.536743e-07, -28.869888)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie805" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.179518, -9.536743e-07, -28.01633)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie806" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.03113, -9.536743e-07, -29.440792)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie807" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.91342, -1.4305115e-06, -26.27602)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie808" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.778442, -9.536743e-07, -27.867195)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie809" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.951494, 2.3841858e-07, -26.696705)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie810" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.532852, 2.3841858e-07, -27.820751)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie811" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.21151, -4.7683716e-07, -26.407341)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie812" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.35367, -9.536743e-07, -28.7627)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie813" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.724266, -9.536743e-07, -27.909142)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie814" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.575878, -9.536743e-07, -29.333603)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie815" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.458168, -1.4305115e-06, -26.16883)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie816" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.323189, -9.536743e-07, -27.760002)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie817" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.154926, 2.3844416, -23.059875)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie818" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.736282, 2.3844416, -24.183922)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie819" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.414944, 2.384441, -22.770512)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie820" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.557102, 2.3844404, -25.125868)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie821" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.927696, 2.3844404, -24.272308)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie822" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.779308, 2.3844404, -25.696774)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie823" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.661598, 2.38444, -22.532)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie824" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.526619, 2.3844404, -24.123173)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie825" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.416256, 2.3844416, -19.162888)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie826" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.997616, 2.3844416, -20.286938)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie827" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.676273, 2.384441, -18.873524)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie828" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.818434, 2.3844404, -21.228882)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie829" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.189028, 2.3844404, -20.375324)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie830" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.04064, 2.3844404, -21.799786)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie831" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.92293, 2.38444, -18.635014)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie832" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.787952, 2.3844404, -20.226189)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie833" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.411026, 2.3844416, -22.96311)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie834" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.992382, 2.3844416, -24.087158)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie835" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.671043, 2.384441, -22.673744)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie836" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.813202, 2.3844404, -25.029102)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie837" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.183796, 2.3844404, -24.175545)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie838" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.035408, 2.3844404, -25.600006)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie839" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.917698, 2.38444, -22.435234)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie840" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.782719, 2.3844404, -24.02641)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie841" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.719822, 2.3844416, -18.920864)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie842" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.30118, 2.3844416, -20.044914)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie843" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.97984, 2.384441, -18.6315)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie844" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.121998, 2.3844404, -20.986858)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie845" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.492592, 2.3844404, -20.1333)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie846" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.344204, 2.3844404, -21.557762)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie847" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.226494, 2.38444, -18.39299)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie848" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.091518, 2.3844404, -19.984165)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie849" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.63145, 2.3844416, -27.154228)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie850" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.21281, 2.3844416, -28.278275)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie851" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.891468, 2.384441, -26.864864)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie852" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.033628, 2.3844404, -29.220219)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie853" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.404222, 2.3844404, -28.366661)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie854" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.255835, 2.3844404, -29.791126)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie855" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.138124, 2.38444, -26.62635)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie856" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.003147, 2.3844404, -28.217525)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie857" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.176199, 2.3844416, -27.047039)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie858" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.757557, 2.3844416, -28.171085)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie859" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.436214, 2.384441, -26.757671)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie860" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.578375, 2.3844404, -29.11303)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie861" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.94897, 2.3844404, -28.259472)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie862" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.800583, 2.3844404, -29.683937)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie863" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.682873, 2.38444, -26.519161)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie864" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.547894, 2.3844404, -28.110336)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie865" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.350459, 2.3841858e-07, -18.359676)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie866" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.931817, 2.3841858e-07, -19.483727)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie867" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6104765, -4.7683716e-07, -18.070313)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie868" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.752636, -9.536743e-07, -20.42567)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie869" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.12323, -9.536743e-07, -19.572113)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie870" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.974842, -9.536743e-07, -20.996574)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie871" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.857132, -1.4305115e-06, -17.831802)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie872" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.722154, -9.536743e-07, -19.422977)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie873" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.611791, 2.3841858e-07, -14.462692)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie874" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.193149, 2.3841858e-07, -15.586739)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie875" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.871808, -4.7683716e-07, -14.1733265)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie876" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.0139675, -9.536743e-07, -16.528685)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie877" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.384562, -9.536743e-07, -15.675127)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie878" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.236174, -9.536743e-07, -17.09959)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie879" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.118464, -1.4305115e-06, -13.934816)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie880" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.983485, -9.536743e-07, -15.52599)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie881" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.606559, 2.3841858e-07, -18.262913)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie882" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.187917, 2.3841858e-07, -19.38696)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie883" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.866577, -4.7683716e-07, -17.973549)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie884" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.008736, -9.536743e-07, -20.328907)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie885" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.37933, -9.536743e-07, -19.475348)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie886" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.230942, -9.536743e-07, -20.89981)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie887" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.113232, -1.4305115e-06, -17.735039)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie888" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.978252, -9.536743e-07, -19.32621)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie889" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.915356, 2.3841858e-07, -14.220669)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie890" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.496714, 2.3841858e-07, -15.344715)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie891" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.175373, -4.7683716e-07, -13.931303)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie892" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.317532, -9.536743e-07, -16.286661)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie893" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.688126, -9.536743e-07, -15.433104)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie894" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.539738, -9.536743e-07, -16.857567)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie895" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.422028, -1.4305115e-06, -13.692793)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie896" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.287052, -9.536743e-07, -15.283966)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie897" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.826985, 2.3841858e-07, -22.45403)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie898" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.408343, 2.3841858e-07, -23.57808)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie899" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.087002, -4.7683716e-07, -22.164665)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie900" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.229162, -9.536743e-07, -24.520023)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie901" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.599756, -9.536743e-07, -23.666466)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie902" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.451368, -9.536743e-07, -25.090927)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie903" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.333658, -1.4305115e-06, -21.926155)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie904" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.198681, -9.536743e-07, -23.51733)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie905" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.371733, 2.3841858e-07, -22.34684)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie906" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.953091, 2.3841858e-07, -23.470886)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie907" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.631749, -4.7683716e-07, -22.057476)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie908" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.773909, -9.536743e-07, -24.412834)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie909" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.144504, -9.536743e-07, -23.559277)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie910" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.996116, -9.536743e-07, -24.983738)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie911" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.878406, -1.4305115e-06, -21.818966)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie912" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.743428, -9.536743e-07, -23.410137)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie913" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.575164, 2.3844416, -18.71001)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie914" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.156522, 2.3844416, -19.834057)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie915" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.835181, 2.384441, -18.420647)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie916" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.977341, 2.3844404, -20.776003)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie917" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.347935, 2.3844404, -19.922443)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie918" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.199547, 2.3844404, -21.346909)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie919" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.081837, 2.38444, -18.182135)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie920" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.946858, 2.3844404, -19.773308)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie921" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.836495, 2.3844416, -14.8130245)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie922" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.417853, 2.3844416, -15.937071)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie923" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.096513, 2.384441, -14.523659)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie924" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.238672, 2.3844404, -16.879017)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie925" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.609266, 2.3844404, -16.02546)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie926" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.460878, 2.3844404, -17.44992)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie927" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.343168, 2.38444, -14.285149)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie928" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.20819, 2.3844404, -15.876322)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie929" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.831264, 2.3844416, -18.613245)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie930" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.4126215, 2.3844416, -19.737293)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie931" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.091282, 2.384441, -18.32388)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie932" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.23344, 2.3844404, -20.679237)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie933" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.604034, 2.3844404, -19.82568)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie934" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.455647, 2.3844404, -21.250143)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie935" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.337936, 2.38444, -18.08537)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie936" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.202957, 2.3844404, -19.676544)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie937" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.14006, 2.3844416, -14.571001)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie938" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.721418, 2.3844416, -15.695047)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie939" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.400078, 2.384441, -14.281635)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie940" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.542236, 2.3844404, -16.636993)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie941" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.91283, 2.3844404, -15.783436)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie942" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.764442, 2.3844404, -17.2079)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie943" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.646732, 2.38444, -14.043125)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie944" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.511757, 2.3844404, -15.634298)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie945" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.05169, 2.3844416, -22.804363)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie946" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.633048, 2.3844416, -23.92841)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie947" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.311707, 2.384441, -22.515)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie948" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.453867, 2.3844404, -24.870356)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie949" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.824461, 2.3844404, -24.016796)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie950" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.676073, 2.3844404, -25.441261)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie951" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.558363, 2.38444, -22.276487)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie952" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.423386, 2.3844404, -23.86766)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie953" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.596437, 2.3844416, -22.697174)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie954" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.177795, 2.3844416, -23.82122)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie955" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.856454, 2.384441, -22.407806)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie956" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.998613, 2.3844404, -24.763165)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie957" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.369208, 2.3844404, -23.909607)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie958" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.22082, 2.3844404, -25.334072)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie959" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.10311, 2.38444, -22.169296)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie960" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.968133, 2.3844404, -23.760471)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie961" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.92151, 2.3841858e-07, 3.3302784)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie962" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.502865, 2.3841858e-07, 2.206231)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie963" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.181526, -4.7683716e-07, 3.6196432)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie964" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.323685, -9.536743e-07, 1.264286)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie965" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.69428, -9.536743e-07, 2.1178446)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie966" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.54589, -9.536743e-07, 0.6933813)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie967" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.42818, -1.4305115e-06, 3.8581543)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie968" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.2932, -9.536743e-07, 2.2669802)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie969" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.18284, 2.3841858e-07, 7.2272654)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie970" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.7642, 2.3841858e-07, 6.103217)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie971" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.442856, -4.7683716e-07, 7.516629)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie972" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.585014, -9.536743e-07, 5.161272)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie973" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.955612, -9.536743e-07, 6.0148306)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie974" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.80722, -9.536743e-07, 4.5903673)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie975" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.689514, -1.4305115e-06, 7.7551413)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie976" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.554535, -9.536743e-07, 6.163966)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie977" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.17761, 2.3841858e-07, 3.427044)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie978" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.758965, 2.3841858e-07, 2.3029966)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie979" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.437626, -4.7683716e-07, 3.7164087)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie980" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.579784, -9.536743e-07, 1.3610506)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie981" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.95038, -9.536743e-07, 2.2146091)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie982" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.80199, -9.536743e-07, 0.7901459)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie983" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.68428, -1.4305115e-06, 3.9549189)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie984" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.5493, -9.536743e-07, 2.3637457)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie985" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.486404, 2.3841858e-07, 7.469289)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie986" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.067764, 2.3841858e-07, 6.3452406)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie987" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.74642, -4.7683716e-07, 7.7586527)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie988" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.88858, -9.536743e-07, 5.4032955)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie989" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.259174, -9.536743e-07, 6.256854)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie990" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.110786, -9.536743e-07, 4.832391)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie991" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.993076, -1.4305115e-06, 7.9971647)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie992" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.8581, -9.536743e-07, 6.4059896)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie993" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.398033, 2.3841858e-07, -0.7640734)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie994" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.979393, 2.3841858e-07, -1.8881216)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie995" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.65805, -4.7683716e-07, -0.4747095)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie996" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.80021, -9.536743e-07, -2.8300676)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie997" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.170807, -9.536743e-07, -1.9765081)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie998" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.022415, -9.536743e-07, -3.4009714)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie999" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.90471, -1.4305115e-06, -0.23619938)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1000" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.76973, -9.536743e-07, -1.8273726)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1001" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.94278, 2.3841858e-07, -0.6568842)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1002" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.52414, 2.3841858e-07, -1.7809305)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1003" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.202797, -4.7683716e-07, -0.36751842)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1004" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.344955, -9.536743e-07, -2.7228765)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1005" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.715553, -9.536743e-07, -1.869319)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1006" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.567165, -9.536743e-07, -3.2937822)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1007" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.449455, -1.4305115e-06, -0.1290083)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1008" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.314476, -9.536743e-07, -1.7201815)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1009" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.146214, 2.3844416, 2.9799461)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1010" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.72757, 2.3844416, 1.8558989)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1011" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.40623, 2.384441, 3.269311)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1012" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.54839, 2.3844404, 0.9139538)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1013" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.918983, 2.3844404, 1.7675123)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1014" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.770596, 2.3844404, 0.34304905)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1015" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.652885, 2.38444, 3.507822)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1016" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.517906, 2.3844404, 1.9166479)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1017" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.407543, 2.3844416, 6.876933)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1018" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.988903, 2.3844416, 5.752885)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1019" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.66756, 2.384441, 7.166297)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1020" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.809723, 2.3844404, 4.81094)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1021" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.180313, 2.3844404, 5.6644983)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1022" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.03193, 2.3844404, 4.240035)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1023" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.914215, 2.38444, 7.404807)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1024" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.77924, 2.3844404, 5.813634)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1025" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.402313, 2.3844416, 3.0767117)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1026" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.98367, 2.3844416, 1.9526644)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1027" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.66233, 2.384441, 3.3660765)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1028" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.80449, 2.3844404, 1.0107183)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1029" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.175083, 2.3844404, 1.8642769)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1030" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.026695, 2.3844404, 0.43981457)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1031" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.908985, 2.38444, 3.6045866)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1032" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.774006, 2.3844404, 2.0134134)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1033" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.71111, 2.3844416, 7.1189566)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1034" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.292465, 2.3844416, 5.9949083)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1035" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.971127, 2.384441, 7.4083204)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1036" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.113285, 2.3844404, 5.0529633)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1037" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.48388, 2.3844404, 5.906522)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1038" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.33549, 2.3844404, 4.4820585)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1039" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.21778, 2.38444, 7.6468306)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1040" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.082806, 2.3844404, 6.0556574)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1041" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.622738, 2.3844416, -1.1144056)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1042" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.204098, 2.3844416, -2.2384539)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1043" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.882755, 2.384441, -0.8250418)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1044" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.024918, 2.3844404, -3.180398)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1045" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.395508, 2.3844404, -2.3268404)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1046" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.247124, 2.3844404, -3.7513037)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1047" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.12941, 2.38444, -0.58652973)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1048" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.994434, 2.3844404, -2.1777048)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1049" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.16749, 2.3844416, -1.0072165)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1050" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.748844, 2.3844416, -2.1312628)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1051" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.4275, 2.384441, -0.7178507)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1052" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.569664, 2.3844404, -3.0732088)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1053" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.940258, 2.3844404, -2.2196512)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1054" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.79187, 2.3844404, -3.6441145)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1055" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.67416, 2.38444, -0.47934055)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1056" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.53918, 2.3844404, -2.0705137)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1057" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.341747, 2.3841858e-07, 7.6801443)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1058" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.923103, 2.3841858e-07, 6.556096)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1059" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.601765, -4.7683716e-07, 7.969508)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1060" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.743923, -9.536743e-07, 5.614151)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1061" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.114517, -9.536743e-07, 6.4677095)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1062" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.96613, -9.536743e-07, 5.0432463)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1063" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.84842, -1.4305115e-06, 8.208018)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1064" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.71344, -9.536743e-07, 6.616845)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1065" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.603077, 2.3841858e-07, 11.57713)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1066" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.184437, 2.3841858e-07, 10.453082)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1067" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.863094, -4.7683716e-07, 11.866494)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1068" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.005255, -9.536743e-07, 9.511138)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1069" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.375847, -9.536743e-07, 10.364696)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1070" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.22746, -9.536743e-07, 8.940232)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1071" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.10975, -1.4305115e-06, 12.105006)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1072" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.974773, -9.536743e-07, 10.513831)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1073" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.597847, 2.3841858e-07, 7.776908)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1074" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.179203, 2.3841858e-07, 6.6528616)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1075" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.857864, -4.7683716e-07, 8.066274)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1076" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.000023, -9.536743e-07, 5.7109156)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1077" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.370617, -9.536743e-07, 6.564474)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1078" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.22223, -9.536743e-07, 5.140011)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1079" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.10452, -1.4305115e-06, 8.304784)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1080" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.96954, -9.536743e-07, 6.7136106)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1081" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.906643, 2.3841858e-07, 11.819154)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1082" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.488, 2.3841858e-07, 10.695106)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1083" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.16666, -4.7683716e-07, 12.10852)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1084" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.30882, -9.536743e-07, 9.753161)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1085" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.679413, -9.536743e-07, 10.606719)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1086" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.531025, -9.536743e-07, 9.182256)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1087" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.413315, -1.4305115e-06, 12.34703)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1088" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.27834, -9.536743e-07, 10.755855)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1089" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.818272, 2.3841858e-07, 3.5857916)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1090" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.399632, 2.3841858e-07, 2.4617434)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1091" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.078289, -4.7683716e-07, 3.8751554)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1092" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.22045, -9.536743e-07, 1.5197983)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1093" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.59104, -9.536743e-07, 2.3733568)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1094" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.442656, -9.536743e-07, 0.94889355)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1095" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.324944, -1.4305115e-06, 4.1136665)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1096" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.189968, -9.536743e-07, 2.5224924)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1097" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.36302, 2.3841858e-07, 3.6929808)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1098" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.944378, 2.3841858e-07, 2.5689344)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1099" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.623035, -4.7683716e-07, 3.9823465)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1100" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.765196, -9.536743e-07, 1.6269884)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1101" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.135792, -9.536743e-07, 2.480546)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1102" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.987404, -9.536743e-07, 1.0560827)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1103" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.869694, -1.4305115e-06, 4.2208567)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1104" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.734715, -9.536743e-07, 2.6296835)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1105" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.566452, 2.3844416, 7.329812)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1106" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.147808, 2.3844416, 6.205764)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1107" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.82647, 2.384441, 7.619176)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1108" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.968628, 2.3844404, 5.2638187)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1109" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.339222, 2.3844404, 6.1173773)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1110" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.190834, 2.3844404, 4.692914)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1111" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.073124, 2.38444, 7.857688)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1112" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.938145, 2.3844404, 6.266513)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1113" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.827782, 2.3844416, 11.226798)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1114" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.409142, 2.3844416, 10.10275)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1115" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.0878, 2.384441, 11.516162)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1116" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.22996, 2.3844404, 9.160804)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1117" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.600555, 2.3844404, 10.014363)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1118" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.452166, 2.3844404, 8.5899)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1119" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.334457, 2.38444, 11.754672)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1120" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.199478, 2.3844404, 10.163499)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1121" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.822552, 2.3844416, 7.4265776)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1122" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.403908, 2.3844416, 6.3025293)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1123" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.08257, 2.384441, 7.7159414)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1124" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.224728, 2.3844404, 5.3605833)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1125" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.59532, 2.3844404, 6.214142)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1126" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.446934, 2.3844404, 4.7896786)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1127" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.329224, 2.38444, 7.9544516)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1128" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.194244, 2.3844404, 6.3632784)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1129" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.131348, 2.3844416, 11.468822)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1130" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.712708, 2.3844416, 10.344773)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1131" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.391365, 2.384441, 11.758185)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1132" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.533524, 2.3844404, 9.402827)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1133" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.904118, 2.3844404, 10.256387)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1134" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.75573, 2.3844404, 8.8319235)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1135" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.63802, 2.38444, 11.9966955)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1136" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.503044, 2.3844404, 10.405522)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1137" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.042976, 2.3844416, 3.2354593)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1138" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.624336, 2.3844416, 2.111411)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1139" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.302994, 2.384441, 3.5248232)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1140" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.445154, 2.3844404, 1.169466)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1141" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.81575, 2.3844404, 2.0230246)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1142" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.66736, 2.3844404, 0.5985613)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1143" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.549652, 2.38444, 3.7633343)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1144" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.414673, 2.3844404, 2.1721601)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1145" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.587725, 2.3844416, 3.3426485)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1146" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.169083, 2.3844416, 2.2186022)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1147" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.84774, 2.384441, 3.6320143)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1148" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.9899, 2.3844404, 1.2766562)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1149" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.360497, 2.3844404, 2.1302137)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1150" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.212109, 2.3844404, 0.70575047)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1151" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.094398, 2.38444, 3.8705244)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
+[node name="PhysicsBodyZombie1152" parent="." node_paths=PackedStringArray("player") instance=ExtResource("1_3rtdu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.95942, 2.3844404, 2.2793512)
+axis_lock_angular_x = true
+axis_lock_angular_z = true
+mass = 5.0
+linear_damp = 3.0
+player = NodePath("../Player")
+
 [node name="Player" parent="." instance=ExtResource("2_ugf7w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.925022, 0, 19.725718)

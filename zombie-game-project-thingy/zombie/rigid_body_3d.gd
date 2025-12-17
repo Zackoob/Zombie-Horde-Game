@@ -3,13 +3,21 @@ extends RigidBody3D
 @export var player : Node
 @export var speed : float = 8.0
 #@export var speed_threshold : float = 0.25 # % of speed var to determine when zombie should climb
-@export var wall_threshold : float = 0.9 # Distance from wall before enemies start climbing
-@export var ground_threshold : float = 0.3 # 0.5 good value
+@export var wall_threshold : float = 2.0 # Distance from wall before enemies start climbing
+@export var ground_threshold : float = 0.5 # 0.5 good value - is used to push mesh down so visually contacts ground
 
 @export var raycast_interval : int = 3
 
 var previous_position : Vector3
 var is_climbing : bool = false
+
+func _ready() -> void:
+	if randf_range(0, 1) < 0.3:
+		$MeshInstance3D.cast_shadow = true
+	else:
+		$MeshInstance3D.cast_shadow = false
+	
+	#$MeshInstance3D.position.y -= ground_threshold # until hovering is fixed mesh is pushed down
 
 func _physics_process(delta: float) -> void:
 	var distance = (player.position - position).length()
@@ -20,23 +28,24 @@ func _physics_process(delta: float) -> void:
 		direction = (player.position - position).normalized()
 	
 	var force : Vector3 = Vector3.ZERO
-	force.x = direction.x * speed
-	force.z = direction.z * speed
-	
-	apply_central_impulse(force)
+	force.x = direction.x * speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
+	force.z = direction.z * speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
 	
 	#Climbing code
 	if position.y < 6:
-		check_wall()
+		check_wall(direction)
 	else:
 		is_climbing = false
+		force.y = -100
 	if is_climbing:
-		apply_central_impulse(Vector3(0, 4, 0))
+		force.y = 400
+	
+	apply_central_force(force)
 
-func check_wall():
+func check_wall(direction):
 	var ray = get_world_3d().direct_space_state 
 	var origin = position
-	var destination = player.position
+	var destination = position + (Vector3(direction.x, position.y, direction.z) * 2.0)
 	var query = PhysicsRayQueryParameters3D.create(origin, destination)
 	query.exclude = [player]
 	var result = ray.intersect_ray(query)
@@ -44,17 +53,17 @@ func check_wall():
 	if result:
 		var wall_pos = result.position
 		var distance = (wall_pos - position).length()
-		var on_ground : float = randf_range(0, 1)
 		
-		if distance < wall_threshold && !is_on_ground():
+		if distance < wall_threshold && is_on_ground():
 			is_climbing = true
 		else:
 			is_climbing = false
 
+# Not in use as debugging
 func is_on_ground():
 	var ray = get_world_3d().direct_space_state 
-	var origin = position
-	var destination = position - Vector3(0, ground_threshold, 0)
+	var origin = position# - Vector3(0, 0.5 - 0.01, 0) # This corrects on ground recognising self but dulls the horde, removing it makes horde float at ground_threshold
+	var destination = origin - Vector3(0, ground_threshold, 0)
 	var query = PhysicsRayQueryParameters3D.create(origin, destination)
 	query.exclude = [player]
 	var result = ray.intersect_ray(query)

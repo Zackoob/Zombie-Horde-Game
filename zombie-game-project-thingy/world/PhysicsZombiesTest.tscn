@@ -1,6 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://cmqsmljrfrovr"]
+[gd_scene load_steps=12 format=3 uid="uid://cmqsmljrfrovr"]
 
 [ext_resource type="PackedScene" uid="uid://ci0iwi5s058kt" path="res://zombie/physicsBodyZombie.tscn" id="1_3rtdu"]
+[ext_resource type="PackedScene" uid="uid://cye1qb57br4iq" path="res://player/camera.tscn" id="1_ugf7w"]
 [ext_resource type="PackedScene" uid="uid://ciyxmm6ty5ja7" path="res://player/player.tscn" id="2_ugf7w"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3rtdu"]
@@ -10449,3 +10450,12 @@ speed = 250.0
 
 [node name="Player" parent="." instance=ExtResource("2_ugf7w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.925022, 0, 19.725718)
+acceleration = null
+gravity = null
+jump_force = null
+
+[node name="Camera" parent="." node_paths=PackedStringArray("camera_target") instance=ExtResource("1_ugf7w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.618408, 1.6061333, 22.889927)
+camera_target = NodePath("CameraTarget")
+
+[editable path="Camera"]

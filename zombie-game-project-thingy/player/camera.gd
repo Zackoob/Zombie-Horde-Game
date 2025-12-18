@@ -14,7 +14,7 @@ func _ready() -> void:
 func _input(event: InputEvent) -> void:
 	if event is InputEventMouseMotion && Input.get_mouse_mode() != 0:
 		yaw += -event.relative.x * yaw_sensitivity
-		pitch += event.relative.y * pitch_sensitivity
+		pitch += -event.relative.y * pitch_sensitivity
 	elif Input.is_action_pressed("menu"):
 		if Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
 			Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)

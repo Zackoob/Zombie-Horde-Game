@@ -89,7 +89,7 @@ skeleton = NodePath("../../..")
 [node name="zombies" type="Node" parent="."]
 
 [node name="Camera" parent="." node_paths=PackedStringArray("camera_target") instance=ExtResource("3_xcwsv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3935795, 1.8420343, 3.3279552)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9433733, 1.8420343, 3.3279552)
 camera_target = NodePath("CameraTarget")
 
 [node name="SpringArm3D" parent="Camera/CameraTarget" index="0"]

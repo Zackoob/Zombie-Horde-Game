@@ -10448,14 +10448,18 @@ linear_damp = 3.0
 player = NodePath("../Player")
 speed = 250.0
 
-[node name="Player" parent="." instance=ExtResource("2_ugf7w")]
+[node name="Player" parent="." node_paths=PackedStringArray("camera_target", "camera_parent") instance=ExtResource("2_ugf7w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.925022, 0, 19.725718)
-acceleration = null
-gravity = null
-jump_force = null
+gravity = 200.0
+jump_force = 100.0
+camera_target = NodePath("../Camera/CameraTarget")
+camera_parent = NodePath("../Camera")
 
 [node name="Camera" parent="." node_paths=PackedStringArray("camera_target") instance=ExtResource("1_ugf7w")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.618408, 1.6061333, 22.889927)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.887785, 1.6061333, 22.889927)
 camera_target = NodePath("CameraTarget")
+
+[node name="SpringArm3D" parent="Camera/CameraTarget" index="0"]
+spring_length = 2.0
 
 [editable path="Camera"]

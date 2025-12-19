@@ -11,11 +11,16 @@ extends RigidBody3D
 var previous_position : Vector3
 var is_climbing : bool = false
 
+var update_offset : int = randi_range(0, 4)
+
 func _ready() -> void:
 	if randf_range(0, 1) < 0.3:
 		$MeshInstance3D.cast_shadow = true
 	else:
 		$MeshInstance3D.cast_shadow = false
+	
+	max_contacts_reported = 2
+	continuous_cd = false
 	
 	#$MeshInstance3D.position.y -= ground_threshold # until hovering is fixed mesh is pushed down
 
@@ -32,11 +37,12 @@ func _physics_process(delta: float) -> void:
 	force.z = direction.z * speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
 	
 	#Climbing code
-	if position.y < 6:
+	if position.y < 6 && (Engine.get_physics_frames() + update_offset) % 4 == 0:
 		check_wall(direction)
-	else:
+	elif position.y >= 6:
 		is_climbing = false
 		force.y = -100
+	
 	if is_climbing:
 		force.y = 400
 	

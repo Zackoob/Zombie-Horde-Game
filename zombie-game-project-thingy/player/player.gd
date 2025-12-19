@@ -63,7 +63,7 @@ func camera_smooth_follow(delta):
 
 func shoot():
 	var ray = get_world_3d().direct_space_state
-	var origin = camera_parent.global_position
+	var origin = camera_target.global_position
 	var destination = origin + -camera_target.global_transform.basis.z * 1000
 	
 	var query = PhysicsRayQueryParameters3D.create(origin, destination)
@@ -73,7 +73,7 @@ func shoot():
 	
 	DebugDraw3D.draw_line(origin, destination, Color.RED)
 	
-	if collider:
+	if collider && collider.is_in_group("Zombies"):
 		print("Hit", get_node(collider.get_path()))
 		get_node(collider.get_path()).queue_free()
 	else:

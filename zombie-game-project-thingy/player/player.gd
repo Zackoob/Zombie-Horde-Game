@@ -12,9 +12,16 @@ var camera_t = float()
 var cam_speed = float()
 var camera_direction : Vector3
 
+var mag_size : int = 30
+var bullets : int = mag_size
+var total_bullets : int = 60
+
+func _ready() -> void:
+	$PlayerHud.update_bullet_counter(bullets, total_bullets)
+
 func _physics_process(delta: float) -> void:
 	var direction : Vector3 = Vector3.ZERO
-	camera_t = camera_target.global_transform.basis.get_euler().y #this might be fine
+	camera_t = camera_target.global_transform.basis.get_euler().y 
 	
 	if Input.is_action_pressed("forward"):
 		direction.z -= 1.0
@@ -25,16 +32,12 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("right"):
 		direction.x += 1.0
 	
-	
 	if direction != Vector3.ZERO:
 		direction = direction.normalized()
 		camera_direction = Vector3(direction.x, 0, direction.z).rotated(Vector3.UP, camera_t).normalized() #this
 		rotation.y = lerp_angle(rotation.y, atan2(-camera_direction.x, -camera_direction.z), delta * walk_acceleration) #this
 	
 	var input_velocity : Vector3
-	
-	if Input.is_action_pressed("shoot"):
-		shoot()
 	
 	if is_on_floor():
 		input_velocity.x = direction.x * walk_acceleration
@@ -58,6 +61,32 @@ func _physics_process(delta: float) -> void:
 	
 	move_and_slide()
 	camera_smooth_follow(delta)
+	
+	# Shooting
+	if Input.is_action_just_pressed("shoot") && bullets > 0:
+		shoot()
+		bullets -= 1
+		$PlayerHud.update_bullet_counter(bullets, total_bullets)
+	
+	if Input.is_action_just_pressed("reload"):
+		if total_bullets < mag_size:
+			var new_total_bullets = total_bullets - (mag_size - bullets)
+			if new_total_bullets < 0:
+				bullets += total_bullets
+				total_bullets = 0
+				$PlayerHud.update_bullet_counter(bullets, total_bullets)
+			else: 
+				total_bullets -= mag_size - bullets
+				bullets = mag_size
+				$PlayerHud.update_bullet_counter(bullets, total_bullets)
+		elif bullets == mag_size:
+			print("Magazine is full")
+		elif total_bullets <= 0:
+			print("Ammo is empty")
+		else:
+			total_bullets -= mag_size - bullets
+			bullets = mag_size
+		$PlayerHud.update_bullet_counter(bullets, total_bullets)
 
 func camera_smooth_follow(delta):
 	var cam_offset = Vector3(1.10, 1.5, 0).rotated(Vector3.UP, camera_t)
@@ -78,8 +107,4 @@ func shoot():
 	DebugDraw3D.draw_line(origin, destination, Color.RED)
 	
 	if collider && collider.is_in_group("Zombies"):
-		print("Hit", get_node(collider.get_path()))
 		get_node(collider.get_path()).queue_free()
-	else:
-		print("Missed", collider)
-	

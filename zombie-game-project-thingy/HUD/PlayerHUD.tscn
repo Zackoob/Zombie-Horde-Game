@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0uxdor3ulapy"]
+
+[ext_resource type="Script" uid="uid://baxphrrt5cnti" path="res://HUD/player_hud.gd" id="1_j68lx"]
+
+[node name="PlayerHud" type="CanvasLayer"]
+script = ExtResource("1_j68lx")
+
+[node name="Bullets" type="Label" parent="."]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -26.0
+offset_right = 186.0
+grow_vertical = 0
+text = "30"

@@ -11,6 +11,7 @@ size = Vector3(1, 0.25, 0.25)
 
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1_oul6g")
+acceleration = 30.0
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

@@ -1,6 +1,7 @@
 extends CharacterBody3D
 
-@export var acceleration : float = 40
+@export var walk_acceleration : float = 40
+@export var sprint_acceleration : float = 40
 @export var gravity : float = 30
 @export var jump_force : float = 10
 
@@ -9,7 +10,6 @@ extends CharacterBody3D
 @export var camera_parent : Node3D
 var camera_t = float()
 var cam_speed = float()
-
 var camera_direction : Vector3
 
 func _physics_process(delta: float) -> void:
@@ -29,7 +29,7 @@ func _physics_process(delta: float) -> void:
 	if direction != Vector3.ZERO:
 		direction = direction.normalized()
 		camera_direction = Vector3(direction.x, 0, direction.z).rotated(Vector3.UP, camera_t).normalized() #this
-		rotation.y = lerp_angle(rotation.y, atan2(-camera_direction.x, -camera_direction.z), delta * acceleration) #this
+		rotation.y = lerp_angle(rotation.y, atan2(-camera_direction.x, -camera_direction.z), delta * walk_acceleration) #this
 	
 	var input_velocity : Vector3
 	
@@ -37,20 +37,24 @@ func _physics_process(delta: float) -> void:
 		shoot()
 	
 	if is_on_floor():
-		input_velocity.x = direction.x * acceleration
-		input_velocity.z = direction.z * acceleration
+		input_velocity.x = direction.x * walk_acceleration
+		input_velocity.z = direction.z * walk_acceleration
 	else:
-		input_velocity.x = (direction.x * acceleration) * 0.25
-		input_velocity.z = (direction.z * acceleration) * 0.25
+		input_velocity.x = (direction.x * walk_acceleration) * 0.25
+		input_velocity.z = (direction.z * walk_acceleration) * 0.25
 	
-	input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * acceleration
+	
+	if Input.is_action_pressed("sprint"):
+		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * sprint_acceleration
+	else:
+		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * walk_acceleration
 	velocity = input_velocity
 	
 	if !is_on_floor():
-		velocity.y -= gravity * delta
+		velocity.y -= gravity
 	
 	if Input.is_action_pressed("jump") && is_on_floor():
-		velocity.y += jump_force
+		velocity.y = jump_force
 	
 	move_and_slide()
 	camera_smooth_follow(delta)

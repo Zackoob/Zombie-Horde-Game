@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://cmqsmljrfrovr"]
+[gd_scene load_steps=12 format=3 uid="uid://d31vk4fi5nxjn"]
 
 [ext_resource type="PackedScene" uid="uid://ci0iwi5s058kt" path="res://zombie/physicsBodyZombie.tscn" id="1_3rtdu"]
 [ext_resource type="PackedScene" uid="uid://cye1qb57br4iq" path="res://player/camera.tscn" id="1_ugf7w"]
@@ -9298,8 +9298,8 @@ speed = 250.0
 
 [node name="Player" parent="." node_paths=PackedStringArray("camera_target", "camera_parent") instance=ExtResource("2_ugf7w")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.925022, 0, 19.725718)
-gravity = 200.0
-jump_force = 100.0
+gravity = 8.0
+jump_force = 120.0
 camera_target = NodePath("../Camera/CameraTarget")
 camera_parent = NodePath("../Camera")
 

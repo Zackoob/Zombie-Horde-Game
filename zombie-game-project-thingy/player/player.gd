@@ -81,8 +81,6 @@ func _physics_process(delta: float) -> void:
 				$PlayerHud.update_bullet_counter(bullets, total_bullets)
 		elif bullets == mag_size:
 			print("Magazine is full")
-		elif total_bullets <= 0:
-			print("Ammo is empty")
 		else:
 			total_bullets -= mag_size - bullets
 			bullets = mag_size

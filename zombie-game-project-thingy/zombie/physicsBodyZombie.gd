@@ -4,7 +4,7 @@ extends RigidBody3D
 @export var speed : float = 8.0
 #@export var speed_threshold : float = 0.25 # % of speed var to determine when zombie should climb
 @export var wall_threshold : float = 2.0 # Distance from wall before enemies start climbing
-@export var ground_threshold : float = 0.5 # 0.5 good value - is used to push mesh down so visually contacts ground
+@export var ground_threshold : float = 0.5 # 0.5 good value
 
 @export var raycast_interval : int = 3
 
@@ -41,7 +41,7 @@ func _physics_process(delta: float) -> void:
 		check_wall(direction)
 	elif position.y >= 6:
 		is_climbing = false
-		force.y = -100
+		force.y = -200
 	
 	if is_climbing:
 		force.y = 400

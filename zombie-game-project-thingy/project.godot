@@ -22,10 +22,6 @@ settings/addon_root_folder="res://addons/debug_draw_3d"
 
 window/vsync/vsync_mode=0
 
-[filesystem]
-
-import/blender/enabled=false
-
 [input]
 
 forward={

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bp6vic1hukb85"]
+
+[ext_resource type="Texture2D" uid="uid://ddrv6bm48amdo" path="res://assets/BrickBuilding1_Stone.png" id="1_8o4ix"]
+
+[resource]
+resource_name = "Stone"
+cull_mode = 2
+albedo_texture = ExtResource("1_8o4ix")
+roughness = 0.5

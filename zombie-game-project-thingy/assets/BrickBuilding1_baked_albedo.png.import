@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://y8j4idvd5bvn"
-path.s3tc="res://.godot/imported/BrickBuilding1_Window.png-eb5fcda24c9a5fe8c709038e98b395b4.s3tc.ctex"
+uid="uid://c11keq2isohje"
+path.s3tc="res://.godot/imported/BrickBuilding1_baked_albedo.png-69f8c9803e0877008b43b8d5501c9062.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "eb057f629075ee9593c7e3932e6f10c4"
+"md5": "0172e77e73d4c2b9e46940ad2254eaf3"
 }
 
 [deps]
 
-source_file="res://assets/buildings/BrickBuilding1_Window.png"
-dest_files=["res://.godot/imported/BrickBuilding1_Window.png-eb5fcda24c9a5fe8c709038e98b395b4.s3tc.ctex"]
+source_file="res://assets/BrickBuilding1_baked_albedo.png"
+dest_files=["res://.godot/imported/BrickBuilding1_baked_albedo.png-69f8c9803e0877008b43b8d5501c9062.s3tc.ctex"]
 
 [params]
 

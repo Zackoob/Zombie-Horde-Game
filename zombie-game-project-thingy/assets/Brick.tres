@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://biutajq323f00"]
+
+[ext_resource type="Texture2D" uid="uid://c11keq2isohje" path="res://assets/BrickBuilding1_baked_albedo.png" id="1_qdq5k"]
+
+[resource]
+resource_name = "Brick"
+cull_mode = 2
+albedo_texture = ExtResource("1_qdq5k")
+roughness = 0.5

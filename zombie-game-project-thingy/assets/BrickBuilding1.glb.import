@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://sujh1x4x51ah"
-path="res://.godot/imported/BrickBuildingCollision1.glb-7ceedb1b65b5a987383b661760bf1d3f.scn"
+uid="uid://vkg5y3fm8hck"
+path="res://.godot/imported/BrickBuilding1.glb-86267a387bb98acbda5fa6ddacccbd70.scn"
 
 [deps]
 
-source_file="res://assets/buildings/BrickBuildingCollision1.glb"
-dest_files=["res://.godot/imported/BrickBuildingCollision1.glb-7ceedb1b65b5a987383b661760bf1d3f.scn"]
+source_file="res://assets/BrickBuilding1.glb"
+dest_files=["res://.godot/imported/BrickBuilding1.glb-86267a387bb98acbda5fa6ddacccbd70.scn"]
 
 [params]
 
@@ -34,7 +34,7 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-materials/extract=0
+materials/extract=2
 materials/extract_format=0
 materials/extract_path=""
 _subresources={}

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://vkg5y3fm8hck"
-path="res://.godot/imported/BrickBuilding1.glb-86267a387bb98acbda5fa6ddacccbd70.scn"
+uid="uid://c4utnyn3q7p6s"
+path="res://.godot/imported/ConcreteBuilding.glb-f410890233a8e687ca7aee582e3477f1.scn"
 
 [deps]
 
-source_file="res://assets/BrickBuilding1.glb"
-dest_files=["res://.godot/imported/BrickBuilding1.glb-86267a387bb98acbda5fa6ddacccbd70.scn"]
+source_file="res://assets/buildings/ConcreteBuilding.glb"
+dest_files=["res://.godot/imported/ConcreteBuilding.glb-f410890233a8e687ca7aee582e3477f1.scn"]
 
 [params]
 
@@ -34,9 +34,9 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-materials/extract=2
+materials/extract=1
 materials/extract_format=0
-materials/extract_path=""
+materials/extract_path="res://assets/buildings/materials"
 _subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1

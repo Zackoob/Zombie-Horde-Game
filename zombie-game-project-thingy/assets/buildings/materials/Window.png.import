@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvtakwvd5vd2a"
-path.s3tc="res://.godot/imported/BrickBuilding1_Window.png-96e31a7070101ab25a50579305c92d59.s3tc.ctex"
+uid="uid://y8j4idvd5bvn"
+path.s3tc="res://.godot/imported/Window.png-4a995053e0f2485c5137d1bc53cb41e5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://assets/BrickBuilding1_Window.png"
-dest_files=["res://.godot/imported/BrickBuilding1_Window.png-96e31a7070101ab25a50579305c92d59.s3tc.ctex"]
+source_file="res://assets/buildings/materials/Window.png"
+dest_files=["res://.godot/imported/Window.png-4a995053e0f2485c5137d1bc53cb41e5.s3tc.ctex"]
 
 [params]
 

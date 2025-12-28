@@ -2,8 +2,8 @@ extends CharacterBody3D
 
 @export var walk_acceleration : float = 40
 @export var sprint_acceleration : float = 40
-@export var gravity : float = 30
-@export var jump_force : float = 10
+@export var gravity : float = 4
+@export var jump_force : float = 30
 
 # Camera stuff
 @export var camera_target : Node3D
@@ -51,12 +51,13 @@ func _physics_process(delta: float) -> void:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * sprint_acceleration
 	else:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * walk_acceleration
-	velocitys = input_velocity
+	velocity.x = input_velocity.x
+	velocity.z = input_velocity.z
 	
 	if !is_on_floor():
 		velocity.y -= gravity
 	
-	if Input.is_action_pressed("jump") && is_on_floor():
+	if Input.is_action_just_pressed("jump") && is_on_floor():
 		velocity.y = jump_force
 	
 	move_and_slide()

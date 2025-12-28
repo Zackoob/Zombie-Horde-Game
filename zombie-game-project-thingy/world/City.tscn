@@ -472,7 +472,6 @@ shape = SubResource("ConcavePolygonShape3D_rmdli")
 [node name="Player" parent="." node_paths=PackedStringArray("camera_target", "camera_parent") instance=ExtResource("1_k2kuj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.6059494, 0, 7.4935226)
 walk_acceleration = 20.0
-sprint_acceleration = null
 camera_target = NodePath("../Camera/CameraTarget")
 camera_parent = NodePath("../Camera")
 

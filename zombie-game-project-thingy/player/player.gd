@@ -23,6 +23,7 @@ func _physics_process(delta: float) -> void:
 	var direction : Vector3 = Vector3.ZERO
 	camera_t = camera_target.global_transform.basis.get_euler().y 
 	
+	# Receive input
 	if Input.is_action_pressed("forward"):
 		direction.z -= 1.0
 	if Input.is_action_pressed("backward"):
@@ -32,13 +33,15 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("right"):
 		direction.x += 1.0
 	
+	# Rotate camera based off input
 	if direction != Vector3.ZERO:
 		direction = direction.normalized()
-		camera_direction = Vector3(direction.x, 0, direction.z).rotated(Vector3.UP, camera_t).normalized() #this
-		rotation.y = lerp_angle(rotation.y, atan2(-camera_direction.x, -camera_direction.z), delta * walk_acceleration) #this
+		camera_direction = Vector3(direction.x, 0, direction.z).rotated(Vector3.UP, camera_t).normalized() 
+		rotation.y = lerp_angle(rotation.y, atan2(-camera_direction.x, -camera_direction.z), delta * walk_acceleration) 
 	
-	var input_velocity : Vector3
+	var input_velocity : Vector3 
 	
+	# Calculate movvement direction - player moves slower in air
 	if is_on_floor():
 		input_velocity.x = direction.x * walk_acceleration
 		input_velocity.z = direction.z * walk_acceleration
@@ -46,20 +49,25 @@ func _physics_process(delta: float) -> void:
 		input_velocity.x = (direction.x * walk_acceleration) * 0.25
 		input_velocity.z = (direction.z * walk_acceleration) * 0.25
 	
-	
+	# Sprint
 	if Input.is_action_pressed("sprint"):
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * sprint_acceleration
 	else:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * walk_acceleration
+	
+	# Apply player movement
 	velocity.x = input_velocity.x
 	velocity.z = input_velocity.z
 	
+	# Gravity
 	if !is_on_floor():
 		velocity.y -= gravity
 	
+	# Jump
 	if Input.is_action_just_pressed("jump") && is_on_floor():
 		velocity.y = jump_force
 	
+	# Move player and make camera follow
 	move_and_slide()
 	camera_smooth_follow(delta)
 	
@@ -69,6 +77,7 @@ func _physics_process(delta: float) -> void:
 		bullets -= 1
 		$PlayerHud.update_bullet_counter(bullets, total_bullets)
 	
+	# Reload
 	if Input.is_action_just_pressed("reload"):
 		if total_bullets < mag_size:
 			var new_total_bullets = total_bullets - (mag_size - bullets)
@@ -86,6 +95,9 @@ func _physics_process(delta: float) -> void:
 			total_bullets -= mag_size - bullets
 			bullets = mag_size
 		$PlayerHud.update_bullet_counter(bullets, total_bullets)
+	
+	# Pick up ammo
+	
 
 func camera_smooth_follow(delta):
 	var cam_offset = Vector3(1.10, 1.5, 0).rotated(Vector3.UP, camera_t)

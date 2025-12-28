@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://b23w8nfi02hr8"]
+[gd_scene load_steps=28 format=3 uid="uid://b23w8nfi02hr8"]
 
 [ext_resource type="PackedScene" uid="uid://ciyxmm6ty5ja7" path="res://player/player.tscn" id="1_k2kuj"]
 [ext_resource type="PackedScene" uid="uid://b0uxdor3ulapy" path="res://HUD/PlayerHUD.tscn" id="2_ivai7"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://vkg5y3fm8hck" path="res://assets/buildings/BrickBuilding1.glb" id="5_flkix"]
 [ext_resource type="PackedScene" uid="uid://c4utnyn3q7p6s" path="res://assets/buildings/ConcreteBuilding.glb" id="6_1sq24"]
 [ext_resource type="PackedScene" uid="uid://r3dx118qmdmb" path="res://assets/buildings/StoneBuilding.glb" id="7_1n8fv"]
+[ext_resource type="PackedScene" uid="uid://dwrvmlv5uvslq" path="res://interactables/ammo_pickup.tscn" id="8_f2m37"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rmdli"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -80,8 +81,11 @@ environment = SubResource("Environment_ivai7")
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
 shadow_enabled = true
+directional_shadow_split_1 = 0.05
+directional_shadow_split_2 = 0.15
+directional_shadow_split_3 = 0.4
 directional_shadow_blend_splits = true
-directional_shadow_max_distance = 150.0
+directional_shadow_max_distance = 135.0
 
 [node name="StaticBody3D5" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.952282, 21, -33.22021)
@@ -478,8 +482,9 @@ camera_parent = NodePath("../Camera")
 [node name="PlayerHud" parent="Player" instance=ExtResource("2_ivai7")]
 follow_viewport_enabled = true
 
-[node name="Camera" parent="." node_paths=PackedStringArray("camera_target") instance=ExtResource("2_rmdli")]
+[node name="Camera" parent="." node_paths=PackedStringArray("player_hud", "camera_target") instance=ExtResource("2_rmdli")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.929553, -1.9073486e-06, 10.02813)
+player_hud = NodePath("../Player/PlayerHud")
 camera_target = NodePath("CameraTarget")
 
 [node name="PhysicsBodyZombie" parent="." node_paths=PackedStringArray("player") groups=["Zombies"] instance=ExtResource("3_cuo2v")]
@@ -9981,5 +9986,8 @@ shape = SubResource("BoxShape3D_v4irj")
 [node name="CollisionShape3D6" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
 transform = Transform3D(0.7071069, 0, -0.7071068, 0, 1, 0, 0.7071068, 0, 0.7071069, 15.8665085, 3.3803074, -7.0469804)
 shape = SubResource("BoxShape3D_xcthq")
+
+[node name="AmmoPickup" parent="." instance=ExtResource("8_f2m37")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.87108994, 0.17411971, 9.96828)
 
 [editable path="Camera"]

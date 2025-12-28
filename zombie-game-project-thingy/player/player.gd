@@ -51,7 +51,7 @@ func _physics_process(delta: float) -> void:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * sprint_acceleration
 	else:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * walk_acceleration
-	velocity = input_velocity
+	velocitys = input_velocity
 	
 	if !is_on_floor():
 		velocity.y -= gravity

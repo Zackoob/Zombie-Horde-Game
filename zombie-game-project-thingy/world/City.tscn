@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://b23w8nfi02hr8"]
+[gd_scene load_steps=27 format=3 uid="uid://b23w8nfi02hr8"]
 
 [ext_resource type="PackedScene" uid="uid://ciyxmm6ty5ja7" path="res://player/player.tscn" id="1_k2kuj"]
 [ext_resource type="PackedScene" uid="uid://b0uxdor3ulapy" path="res://HUD/PlayerHUD.tscn" id="2_ivai7"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://ci0iwi5s058kt" path="res://zombie/physicsBodyZombie.tscn" id="3_cuo2v"]
 [ext_resource type="PackedScene" uid="uid://vkg5y3fm8hck" path="res://assets/buildings/BrickBuilding1.glb" id="5_flkix"]
 [ext_resource type="PackedScene" uid="uid://c4utnyn3q7p6s" path="res://assets/buildings/ConcreteBuilding.glb" id="6_1sq24"]
+[ext_resource type="PackedScene" uid="uid://r3dx118qmdmb" path="res://assets/buildings/StoneBuilding.glb" id="7_1n8fv"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rmdli"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -53,6 +54,24 @@ size = Vector3(1.0097656, 40.00168, 0.9584961)
 [sub_resource type="BoxShape3D" id="BoxShape3D_f2m37"]
 size = Vector3(20.50586, 40.00168, 20.512115)
 
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_f2m37"]
+data = PackedVector3Array(-20, -12, 12, -20, 12, -12, -20, 12, 12, -20, -12, 12, -20, -12, -12, -20, 12, -12, 20, -12, 12, -20, 12, 12, 20, 12, 12, 20, -12, 12, -20, -12, 12, -20, 12, 12, 20, 12, -1.0002999, 8.999499, -12, -12, 20, -12, -1.0002999, 20, 12, -1.0002999, 8.999499, 12, -12, 8.999499, -12, -12, -20, -12, 12, 8.999499, -12, -12, -20, -12, -12, 8.999499, -12, -12, -20, -12, 12, 20, -12, 12, 8.999499, -12, -12, 20, -12, 12, 20, -12, -1.0002999, -20, -12, -12, 8.999499, 12, -12, -20, 12, -12, -20, -12, -12, 8.999499, -12, -12, 8.999499, 12, -12, 20, -12, -1.0002999, 20, 12, 12, 20, 12, -1.0002999, 20, -12, -1.0002999, 20, -12, 12, 20, 12, 12, 20, 12, 12, 8.999499, 12, -12, 20, 12, -1.0002999, 8.999499, 12, -12, 20, 12, 12, -20, 12, 12, 8.999499, 12, -12, -20, 12, 12, -20, 12, -12)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jrd10"]
+size = Vector3(29.385864, 0.80126953, 0.94189453)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7gt6q"]
+size = Vector3(42.053497, 0.80126953, 0.6286621)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2nvxa"]
+size = Vector3(24.583164, 0.80126953, 1.079956)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v4irj"]
+size = Vector3(13.011025, 0.80126953, 1.079956)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xcthq"]
+size = Vector3(16.334263, 0.80126953, 1.0892944)
+
 [node name="City" type="Node3D"]
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
@@ -77,10 +96,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
 [node name="StaticBody3D6" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.864388, 21, -15.491559)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.864388, 21, -34.807552)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D6"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 mesh = SubResource("BoxMesh_rmdli")
 skeleton = NodePath("")
 
@@ -89,7 +107,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
 [node name="StaticBody3D8" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.864388, 21, 28.83142)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.75021, 21, 28.83142)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D8"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -125,7 +143,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
 [node name="StaticBody3D25" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.3297, 21, -15.491559)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.3297, 21, -35.3186)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D25"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -137,7 +155,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
 [node name="StaticBody3D26" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.3297, 21, 28.83142)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 96.40929, 20.999992, -33.004158)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D26"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -454,6 +472,7 @@ shape = SubResource("ConcavePolygonShape3D_rmdli")
 [node name="Player" parent="." node_paths=PackedStringArray("camera_target", "camera_parent") instance=ExtResource("1_k2kuj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.6059494, 0, 7.4935226)
 walk_acceleration = 20.0
+sprint_acceleration = null
 camera_target = NodePath("../Camera/CameraTarget")
 camera_parent = NodePath("../Camera")
 
@@ -9934,5 +9953,34 @@ shape = SubResource("BoxShape3D_1n8fv")
 [node name="CollisionShape3D41" type="CollisionShape3D" parent="ConcreteBuilding2/StaticBody3D"]
 transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0.0020618439, 20.00084, -0.0034008026)
 shape = SubResource("BoxShape3D_f2m37")
+
+[node name="StoneBuilding" parent="." instance=ExtResource("7_1n8fv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.803307, 7.6293945e-06, 11.03026)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="StoneBuilding"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
+transform = Transform3D(1.0144448, 0, 0, 0, 1.05088, 0, 0, 0, 1.0144448, 1.1548805, 12.610552, -0.7574911)
+shape = SubResource("ConcavePolygonShape3D_f2m37")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.216736, 3.3803065, -12.742218)
+shape = SubResource("BoxShape3D_jrd10")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0263672, 3.3803065, 11.691076)
+shape = SubResource("BoxShape3D_7gt6q")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
+transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, -19.461647, 3.3803074, -0.91712666)
+shape = SubResource("BoxShape3D_2nvxa")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
+transform = Transform3D(0, 0, -1.0000001, 0, 1, 0, 1.0000001, 0, 0, 21.482708, 3.3803074, 4.868943)
+shape = SubResource("BoxShape3D_v4irj")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
+transform = Transform3D(0.7071069, 0, -0.7071068, 0, 1, 0, 0.7071068, 0, 0.7071069, 15.8665085, 3.3803074, -7.0469804)
+shape = SubResource("BoxShape3D_xcthq")
 
 [editable path="Camera"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://dwrvmlv5uvslq"]
 
-[ext_resource type="Script" uid="uid://cw42covnfi8qh" path="res://interactables/ammo_pickup.gd" id="1_2lmkx"]
+[ext_resource type="Script" uid="uid://cw42covnfi8qh" path="res://interactables/magazine_pickup.gd" id="1_2lmkx"]
 [ext_resource type="PackedScene" uid="uid://df4nl010oao46" path="res://assets/Guns/magazines/AR15Mag.glb" id="1_pykfq"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_2lmkx"]

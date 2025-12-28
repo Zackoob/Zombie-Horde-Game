@@ -71,14 +71,18 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	camera_smooth_follow(delta)
 	
-	# Shooting
+	# Shooting	
 	if Input.is_action_just_pressed("shoot") && bullets > 0:
+		bullets = $PlayerHud.bullets_loaded
+		total_bullets = $PlayerHud.bullets_total
 		shoot()
 		bullets -= 1
 		$PlayerHud.update_bullet_counter(bullets, total_bullets)
 	
 	# Reload
 	if Input.is_action_just_pressed("reload"):
+		bullets = $PlayerHud.bullets_loaded
+		total_bullets = $PlayerHud.bullets_total
 		if total_bullets < mag_size:
 			var new_total_bullets = total_bullets - (mag_size - bullets)
 			if new_total_bullets < 0:

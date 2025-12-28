@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://b23w8nfi02hr8"]
+[gd_scene load_steps=29 format=3 uid="uid://b23w8nfi02hr8"]
 
 [ext_resource type="PackedScene" uid="uid://ciyxmm6ty5ja7" path="res://player/player.tscn" id="1_k2kuj"]
 [ext_resource type="PackedScene" uid="uid://b0uxdor3ulapy" path="res://HUD/PlayerHUD.tscn" id="2_ivai7"]
@@ -7,7 +7,8 @@
 [ext_resource type="PackedScene" uid="uid://vkg5y3fm8hck" path="res://assets/buildings/BrickBuilding1.glb" id="5_flkix"]
 [ext_resource type="PackedScene" uid="uid://c4utnyn3q7p6s" path="res://assets/buildings/ConcreteBuilding.glb" id="6_1sq24"]
 [ext_resource type="PackedScene" uid="uid://r3dx118qmdmb" path="res://assets/buildings/StoneBuilding.glb" id="7_1n8fv"]
-[ext_resource type="PackedScene" uid="uid://dwrvmlv5uvslq" path="res://interactables/ammo_pickup.tscn" id="8_f2m37"]
+[ext_resource type="PackedScene" uid="uid://dwrvmlv5uvslq" path="res://interactables/magazine_pickup.tscn" id="8_f2m37"]
+[ext_resource type="PackedScene" uid="uid://cey8f4xefsg64" path="res://interactables/ammo_box_pickup.tscn" id="9_jrd10"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rmdli"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -9989,5 +9990,8 @@ shape = SubResource("BoxShape3D_xcthq")
 
 [node name="AmmoPickup" parent="." instance=ExtResource("8_f2m37")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.87108994, 0.17411971, 9.96828)
+
+[node name="AmmoBoxPickup" parent="." instance=ExtResource("9_jrd10")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7932091, 0, 9.164117)
 
 [editable path="Camera"]

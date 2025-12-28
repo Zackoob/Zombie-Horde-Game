@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cey8f4xefsg64"]
+
+[ext_resource type="Script" uid="uid://0ab8o2ny2p32" path="res://interactables/ammo_box_pickup.gd" id="1_j5sec"]
+[ext_resource type="PackedScene" uid="uid://ch0kyu7cwrogt" path="res://assets/Guns/magazines/AmmoBox.glb" id="2_j5sec"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2lmkx"]
+size = Vector3(1.842, 1.03, 0.602)
+
+[node name="AmmoBoxPickup" type="StaticBody3D" groups=["interactable"]]
+collision_layer = 2
+script = ExtResource("1_j5sec")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.009089462, 0.2562101, 0.0011547767)
+shape = SubResource("BoxShape3D_2lmkx")
+
+[node name="AmmoBox2" parent="." instance=ExtResource("2_j5sec")]

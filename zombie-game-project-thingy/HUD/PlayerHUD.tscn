@@ -1,6 +1,16 @@
-[gd_scene load_steps=2 format=3 uid="uid://b0uxdor3ulapy"]
+[gd_scene load_steps=4 format=3 uid="uid://b0uxdor3ulapy"]
 
 [ext_resource type="Script" uid="uid://baxphrrt5cnti" path="res://HUD/player_hud.gd" id="1_j68lx"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_glbnf"]
+font_size = 25
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_j68lx"]
+font_size = 25
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
 
 [node name="PlayerHud" type="CanvasLayer"]
 script = ExtResource("1_j68lx")
@@ -9,10 +19,12 @@ script = ExtResource("1_j68lx")
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_top = -26.0
-offset_right = 186.0
+offset_left = 7.0
+offset_top = -35.0
+offset_right = 193.0
 grow_vertical = 0
 text = "30"
+label_settings = SubResource("LabelSettings_glbnf")
 
 [node name="prompt" type="Label" parent="."]
 anchors_preset = 8
@@ -20,12 +32,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 55.0
-offset_top = -11.0
-offset_right = 95.0
-offset_bottom = 12.0
+offset_left = 23.0
+offset_top = -16.0
+offset_right = 268.0
+offset_bottom = 19.0
 grow_horizontal = 2
 grow_vertical = 2
+text = "E - Pick up ammo"
+label_settings = SubResource("LabelSettings_j68lx")
+vertical_alignment = 1
+autowrap_mode = 1
 
 [node name="Crosshair" type="Label" parent="."]
 anchors_preset = 8
@@ -33,10 +49,11 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -13.0
-offset_top = -11.0
-offset_right = 27.0
-offset_bottom = 12.0
+offset_left = -5.0
+offset_top = -12.0
+offset_right = 4.0
+offset_bottom = 37.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "+"
+autowrap_mode = 1

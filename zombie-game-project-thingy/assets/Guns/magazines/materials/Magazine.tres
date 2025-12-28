@@ -1,6 +1,6 @@
 [gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://ce22kgt6k3bx2"]
 
-[ext_resource type="Texture2D" uid="uid://ma1uome2tj77" path="res://assets/Guns/magazines/AR15Mag_Magazine.png" id="1_i754r"]
+[ext_resource type="Texture2D" uid="uid://ma1uome2tj77" path="res://assets/Guns/magazines/materials/AR15Mag_Magazine.png" id="1_i754r"]
 
 [resource]
 resource_name = "Magazine"

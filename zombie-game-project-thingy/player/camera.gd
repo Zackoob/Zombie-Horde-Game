@@ -33,8 +33,8 @@ func _physics_process(delta: float) -> void:
 	
 	# Interactable
 	check_interactable()
-	#if Input.is_action_just_pressed("interact") && current_interactable:
-		
+	if Input.is_action_just_pressed("interact") && current_interactable:
+		current_interactable.interacted(player_hud)
 
 func check_interactable():
 	current_interactable = null
@@ -46,7 +46,8 @@ func check_interactable():
 		hide_prompt()
 
 func show_prompt():
-	player_hud.show_prompt(current_interactable.prompt)
+	if current_interactable:
+		player_hud.show_prompt(current_interactable.prompt)
 
 func hide_prompt():
 	player_hud.hide_prompt()

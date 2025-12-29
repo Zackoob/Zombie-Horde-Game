@@ -8,9 +8,9 @@ extends RigidBody3D
 @export var ground_threshold : float = 0.3 # 0.5 good value
 
 var is_climbing : bool = false
-var update_offset : int = randi_range(0, 8)
+var update_offset : int = randi_range(0, 16)
 var player_offset : Vector3 = Vector3(randf_range(-15, 15), 0, randf_range(-15, 15))
-var continued_force : Vector3
+var force : Vector3 = Vector3.ZERO
 
 func _ready() -> void:
 	if randf_range(0, 1) < 0.3:
@@ -18,29 +18,28 @@ func _ready() -> void:
 	else:
 		$MeshInstance3D.cast_shadow = false
 	
-	max_contacts_reported = 4
+	max_contacts_reported = 2
 	continuous_cd = true
-	can_sleep = true
-	
+	print("new script")
 	#$MeshInstance3D.position.y -= ground_threshold # until hovering is fixed mesh is pushed down
 
 func _physics_process(delta: float) -> void:
-	if !chase_player: # DEBUG
-		return
+	if (Engine.get_physics_frames() + update_offset) % 16 == 0:
+		update_force(delta)
+	apply_central_force(force)
+
+func update_force(delta):
+	if !chase_player:
+		return # DEBUG
 	
-	#if (Engine.get_physics_frames() + update_offset) % 8 != 0:
-	#	apply_central_force(continued_force)
-	#	return
 	var distance = (player.position - position).length()
 	var direction : Vector3
-	if distance > 3:
+	if distance > 1:
 		direction = (player.position + player_offset - position).normalized()
 	else: 
-		max_contacts_reported = 4
-		continuous_cd = true
 		direction = (player.position - position).normalized()
 	
-	var force : Vector3 = Vector3.ZERO
+	
 	force.x = direction.x * speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
 	force.z = direction.z * speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
 	
@@ -52,11 +51,9 @@ func _physics_process(delta: float) -> void:
 		force.y = -200
 	
 	if is_climbing:
-		force.y = 400
+		force.y = 200
 	
-	continued_force = force
-	
-	apply_central_force(force)
+	#apply_central_force(force)
 
 func check_wall(direction):
 	var ray = get_world_3d().direct_space_state 

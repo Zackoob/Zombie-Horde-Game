@@ -5,14 +5,14 @@ extends RigidBody3D
 @export var speed : float = 8.0
 #@export var speed_threshold : float = 0.25 # % of speed var to determine when zombie should climb
 @export var wall_threshold : float = 2.0 # Distance from wall before enemies start climbing
-@export var ground_threshold : float = 0.5 # 0.5 good value
+@export var ground_threshold : float = 0.3 # 0.5 good value
 
 @export var raycast_interval : int = 3
 
 var previous_position : Vector3
 var is_climbing : bool = false
-
 var update_offset : int = randi_range(0, 4)
+var player_offset : Vector3 = Vector3(randf_range(-15, 15), 0, randf_range(-15, 15))
 
 func _ready() -> void:
 	if randf_range(0, 1) < 0.3:
@@ -30,7 +30,7 @@ func _physics_process(delta: float) -> void:
 		var distance = (player.position - position).length()
 		var direction : Vector3
 		if distance > 1:
-			direction = (player.position + Vector3(randf_range(-20, 20), 0, randf_range(-20, 20)) - position).normalized()
+			direction = (player.position + player_offset - position).normalized()
 		else: 
 			direction = (player.position - position).normalized()
 		
@@ -53,7 +53,7 @@ func _physics_process(delta: float) -> void:
 func check_wall(direction):
 	var ray = get_world_3d().direct_space_state 
 	var origin = position
-	var destination = position + (Vector3(direction.x, position.y, direction.z) * 2.0)
+	var destination = position + (Vector3(direction.x, position.y, direction.z) * 5.0)
 	var query = PhysicsRayQueryParameters3D.create(origin, destination)
 	query.exclude = [player]
 	var result = ray.intersect_ray(query)

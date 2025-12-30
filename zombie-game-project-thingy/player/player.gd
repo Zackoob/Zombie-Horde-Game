@@ -16,6 +16,8 @@ var mag_size : int = 30
 var bullets : int = mag_size
 var total_bullets : int = 60
 
+var stamina : float = 100
+
 func _ready() -> void:
 	$PlayerHud.update_bullet_counter(bullets, total_bullets)
 
@@ -38,10 +40,13 @@ func _physics_process(delta: float) -> void:
 		direction = direction.normalized()
 		camera_direction = Vector3(direction.x, 0, direction.z).rotated(Vector3.UP, camera_t).normalized() 
 		rotation.y = lerp_angle(rotation.y, atan2(-camera_direction.x, -camera_direction.z), delta * walk_acceleration) 
+	elif direction == Vector3.ZERO:
+		stamina += 1.0
+		
 	
 	var input_velocity : Vector3 
 	
-	# Calculate movvement direction - player moves slower in air
+	# Calculate movement direction - player moves slower in air
 	if is_on_floor():
 		input_velocity.x = direction.x * walk_acceleration
 		input_velocity.z = direction.z * walk_acceleration
@@ -50,10 +55,15 @@ func _physics_process(delta: float) -> void:
 		input_velocity.z = (direction.z * walk_acceleration) * 0.25
 	
 	# Sprint
-	if Input.is_action_pressed("sprint"):
+	if Input.is_action_pressed("sprint") && stamina > 0:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * sprint_acceleration
+		stamina -= 0.5
+		$PlayerHud.update_stamina_bar(stamina)
 	else:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * walk_acceleration
+		if stamina < 100:
+			stamina += 0.5
+			$PlayerHud.update_stamina_bar(stamina)
 	
 	# Apply player movement
 	velocity.x = input_velocity.x

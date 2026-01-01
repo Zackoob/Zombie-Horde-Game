@@ -2,15 +2,19 @@ extends RigidBody3D
 
 @export var chase_player : bool = true # DEBUG
 @export var player : Node
-@export var speed : float = 8.0
+@export var manager : Node3D
+@export var speed : float = 250.0
 #@export var speed_threshold : float = 0.25 # % of speed var to determine when zombie should climb
 @export var wall_threshold : float = 2.0 # Distance from wall before enemies start climbing
 @export var ground_threshold : float = 0.3 # 0.5 good value
+@export var player_offset_value : float = 15
 
 var is_climbing : bool = false
 var update_offset : int = randi_range(0, 8)
-var player_offset : Vector3 = Vector3(randf_range(-15, 15), 0, randf_range(-15, 15))
+var player_offset : Vector3 = Vector3(randf_range(-player_offset_value, player_offset_value), 0, randf_range(-player_offset_value, player_offset_value))
+var passive_offset : Vector3 = Vector3(randf_range(-player_offset_value * 2, player_offset_value * 2), 0, randf_range(-player_offset_value * 2, player_offset_value * 2))
 var continued_force : Vector3
+var behaviour : int = 0 # Zombie behaviour - 0 is neutral, 1 is alerted, 2 is attacking, 3 is straggler
 
 func _ready() -> void:
 	if randf_range(0, 1) < 0.3:
@@ -33,11 +37,9 @@ func _physics_process(delta: float) -> void:
 	#	return
 	var distance = (player.position - position).length()
 	var direction : Vector3
-	if distance > 3:
-		direction = (player.position + player_offset - position).normalized()
+	if behaviour == 0: # if distance > 3:
+		direction = (manager.horde_position + passive_offset - position).normalized()
 	else: 
-		max_contacts_reported = 4
-		continuous_cd = true
 		direction = (player.position - position).normalized()
 	
 	var force : Vector3 = Vector3.ZERO
@@ -87,4 +89,3 @@ func is_on_ground():
 		return true
 	else:
 		return false
-		

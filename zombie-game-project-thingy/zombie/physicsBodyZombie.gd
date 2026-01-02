@@ -3,7 +3,8 @@ extends RigidBody3D
 @export var chase_player : bool = true # DEBUG
 @export var player : Node
 @export var manager : Node3D
-@export var speed : float = 250.0
+@export var aggressive_speed : float = 250.0
+@export var passive_speed : float = 60.0
 #@export var speed_threshold : float = 0.25 # % of speed var to determine when zombie should climb
 @export var wall_threshold : float = 2.0 # Distance from wall before enemies start climbing
 @export var ground_threshold : float = 0.3 # 0.5 good value
@@ -43,8 +44,12 @@ func _physics_process(delta: float) -> void:
 		direction = (player.position - position).normalized()
 	
 	var force : Vector3 = Vector3.ZERO
-	force.x = direction.x * speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
-	force.z = direction.z * speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
+	if behaviour == 2:
+		force.x = direction.x * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
+		force.z = direction.z * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
+	elif behaviour == 0:
+		force.x = direction.x * passive_speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
+		force.z = direction.z * passive_speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
 	
 	#Climbing code
 	if position.y < 6 && (Engine.get_physics_frames() + update_offset) % 8 == 0:

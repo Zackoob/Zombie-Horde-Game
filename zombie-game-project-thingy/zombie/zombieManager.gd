@@ -1,12 +1,13 @@
 extends Node
 
 @export var straggler_distance : float # Determines how far a zombie is from the horde to be a straggler
+@export var horde_movement_offset : float = 40 # How much randomness will be added to horde movement, from -value to value
 @export var group_size : int = 100 # Size of group that will have status updated each frame
 @export var sample_size : int = 200 # Size of sample group to find horde position
 @export var alerted_distance : float = 70.0
 @export var chase_distance : float = 100.0 # Distance aggressive horde can be from player before turning passive
-@export var update_timer : int = 1000
-@export var aggressive_timer : int = 200
+@export var update_countdown : int = 1000 # Used for the passive update timer
+@export var aggressive_countdown : int = 200 # Used for the aggressive update timer
 @export var player : Node3D
 
 var zombies : Array[RigidBody3D]
@@ -15,6 +16,9 @@ var aggressive_horde_position : Vector3
 var passive_position : Vector3
 var group_index : int = 0
 var behaviour : int = 0
+var update_timer : int = update_countdown
+var aggressive_timer : int = aggressive_countdown
+var max_position : float = 90 # How far on the x and z axis passive horde can go, from -value to value
 
 
 func _ready() -> void:
@@ -35,6 +39,7 @@ func _process(delta: float) -> void:
 		set_behaviour(0)
 		if horde_position != Vector3.ZERO:
 			horde_position += Vector3(randf_range(-50, 50), 0.0, randf_range(-50, 50))
+			horde_position = Vector3(clampf(horde_position.x, -max_position, max_position), 0.0, clampf(horde_position.z, -max_position, max_position))
 			print(horde_position)
 		else:
 			find_passive_horde_position()
@@ -46,7 +51,7 @@ func _process(delta: float) -> void:
 	# Set aggressive behaviour to zombies
 	if behaviour == 2 && aggressive_timer <= 0:
 		set_behaviour(2)
-		aggressive_timer = 200
+		aggressive_timer = 200 # Having this set high makes it so a portion of the horde will 
 	else:
 		aggressive_timer -= 1
 
@@ -55,6 +60,7 @@ func check_behaviour():
 	var player_distance_aggressive
 	if aggressive_horde_position != null:
 		player_distance_aggressive = (player.global_position - horde_position).length()
+	
 	if player_distance_passive < alerted_distance || player_distance_aggressive < chase_distance:
 		behaviour = 2
 	else: 

@@ -41,7 +41,7 @@ func _physics_process(delta: float) -> void:
 	if behaviour == 0: # if distance > 3:
 		direction = (manager.horde_position + passive_offset - position).normalized()
 	else: 
-		direction = (player.position - position).normalized()
+		direction = (player.position + player_offset - position).normalized()
 	
 	var force : Vector3 = Vector3.ZERO
 	if behaviour == 2:

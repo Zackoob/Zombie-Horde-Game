@@ -16,12 +16,15 @@ var player_offset : Vector3 = Vector3(randf_range(-player_offset_value, player_o
 var passive_offset : Vector3 = Vector3(randf_range(-player_offset_value * 2, player_offset_value * 2), 0, randf_range(-player_offset_value * 2, player_offset_value * 2))
 var continued_force : Vector3
 var behaviour : int = 0 # Zombie behaviour - 0 is neutral, 1 is alerted, 2 is attacking, 3 is straggler
+var horde : int # ID of horde zombie belongs to
 
 func _ready() -> void:
 	if randf_range(0, 1) < 0.3:
 		$MeshInstance3D.cast_shadow = true
 	else:
 		$MeshInstance3D.cast_shadow = false
+	
+	
 	
 	max_contacts_reported = 4
 	continuous_cd = true
@@ -38,10 +41,10 @@ func _physics_process(delta: float) -> void:
 	#	return
 	var distance = (player.position - position).length()
 	var direction : Vector3
-	if behaviour == 0: # if distance > 3:
-		direction = (manager.horde_position + passive_offset - position).normalized()
-	else: 
-		direction = (player.position + player_offset - position).normalized()
+	#if manager.hordes[horde].behaviour == 0: # if distance > 3:
+	#	direction = (manager.hordes[horde].position + passive_offset - position).normalized()
+	#else: 
+	#	direction = (player.position + (player_offset / 2) - position).normalized()
 	
 	var force : Vector3 = Vector3.ZERO
 	if behaviour == 2:

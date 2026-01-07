@@ -14,10 +14,6 @@ config/name="Zombie-Game-Project-Thingy"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
-[autoload]
-
-ZombieManager="*res://zombie/zombieManager.gd"
-
 [debug_draw_3d]
 
 settings/addon_root_folder="res://addons/debug_draw_3d"
@@ -87,6 +83,7 @@ interact={
 [layer_names]
 
 3d_physics/layer_2="interactable"
+3d_physics/layer_3="building"
 
 [physics]
 

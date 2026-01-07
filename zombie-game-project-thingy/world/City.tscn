@@ -80,10 +80,10 @@ size = Vector3(13.011025, 0.80126953, 1.079956)
 [sub_resource type="BoxShape3D" id="BoxShape3D_xcthq"]
 size = Vector3(16.334263, 0.80126953, 1.0892944)
 
-[sub_resource type="BoxMesh" id="BoxMesh_7gt6q"]
-
 [sub_resource type="BoxShape3D" id="BoxShape3D_dik5q"]
 size = Vector3(400.1161, 35.005646, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_7gt6q"]
 
 [node name="City" type="Node3D"]
 
@@ -99,8 +99,9 @@ directional_shadow_split_3 = 0.4
 directional_shadow_blend_splits = true
 directional_shadow_max_distance = 135.0
 
-[node name="StaticBody3D5" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.952282, 21, -33.22021)
+[node name="StaticBody3D5" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.952282, 21, -112.37538)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D5"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -111,8 +112,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D6" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.864388, 21, -34.807552)
+[node name="StaticBody3D6" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.864388, 21, -113.96272)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D6"]
 mesh = SubResource("BoxMesh_rmdli")
@@ -122,8 +124,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D8" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.75021, 21, 28.83142)
+[node name="StaticBody3D8" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.75021, 21, -50.323746)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D8"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -134,8 +137,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D9" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.613706, 21, 62.120205)
+[node name="StaticBody3D9" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.613706, 21, -17.034962)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D9"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -146,8 +150,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D10" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.864388, 21, 61.915585)
+[node name="StaticBody3D10" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.864388, 21, -17.239582)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D10"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -158,8 +163,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D25" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.3297, 21, -35.3186)
+[node name="StaticBody3D25" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.3297, 21, -114.47377)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D25"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -170,8 +176,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D26" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 96.40929, 20.999992, -33.004158)
+[node name="StaticBody3D26" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 96.40929, 20.999992, -112.159325)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D26"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -182,8 +189,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D27" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.3297, 21, 61.915585)
+[node name="StaticBody3D27" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.3297, 21, -17.239582)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D27"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -194,8 +202,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D28" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, -15.491559)
+[node name="StaticBody3D28" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, -94.64673)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D28"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -206,8 +215,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D29" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 28.83142)
+[node name="StaticBody3D29" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, -50.323746)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D29"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -218,8 +228,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D30" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 61.915585)
+[node name="StaticBody3D30" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, -17.239582)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D30"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -230,8 +241,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D31" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 94.665085)
+[node name="StaticBody3D31" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 15.509918)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D31"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -242,8 +254,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D32" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 138.98807)
+[node name="StaticBody3D32" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 59.8329)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D32"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -259,8 +272,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D34" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.013145, 21, 95.82764)
+[node name="StaticBody3D34" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -68.013145, 21, 16.67247)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D34"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -271,8 +285,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D33" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 172.07224)
+[node name="StaticBody3D33" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.66272, 21, 92.91707)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D33"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -283,8 +298,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D13" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.29674, 21, 62.120205)
+[node name="StaticBody3D13" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.29674, 21, -17.034962)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D13"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -295,8 +311,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D14" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.81864, 21, 61.915585)
+[node name="StaticBody3D14" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.81864, 21, -17.239582)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D14"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -307,8 +324,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D15" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.29674, 21, 62.120205)
+[node name="StaticBody3D15" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.29674, 21, -17.034962)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D15"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -319,8 +337,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D16" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.81864, 21, 61.915585)
+[node name="StaticBody3D16" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.81864, 21, -17.239582)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D16"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -331,8 +350,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D11" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 5.6051626, 21, 114.402725)
+[node name="StaticBody3D11" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 5.6051626, 21, 35.24756)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D11"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -343,8 +363,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D12" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -36.21708, 21, 99.26198)
+[node name="StaticBody3D12" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -36.21708, 21, 20.106812)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D12"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -355,8 +376,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D19" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -6.938243, 21, 149.24854)
+[node name="StaticBody3D19" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -6.938243, 21, 70.09337)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D19"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -367,8 +389,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D20" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -48.760483, 21, 134.10779)
+[node name="StaticBody3D20" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -48.760483, 21, 54.95262)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D20"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -379,8 +402,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D21" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -26.618382, 21, 204.80498)
+[node name="StaticBody3D21" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -26.618382, 21, 125.64981)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D21"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -391,8 +415,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D22" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -68.44063, 21, 189.66423)
+[node name="StaticBody3D22" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -68.44063, 21, 110.50906)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D22"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -403,8 +428,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D23" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -39.16179, 21, 239.65079)
+[node name="StaticBody3D23" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -39.16179, 21, 160.49562)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D23"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -415,8 +441,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D24" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -80.98403, 21, 224.51004)
+[node name="StaticBody3D24" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, -80.98403, 21, 145.35487)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D24"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -427,8 +454,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D17" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 84.16751, 21, 142.97829)
+[node name="StaticBody3D17" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 84.16751, 21, 63.82312)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D17"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -439,8 +467,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D18" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 42.34527, 21, 127.83754)
+[node name="StaticBody3D18" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 42.34527, 21, 48.682373)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D18"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -451,8 +480,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D35" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 71.49362, 20.999985, 177.40019)
+[node name="StaticBody3D35" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 71.49362, 20.999985, 98.245026)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D35"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -463,8 +493,9 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D36" type="StaticBody3D" parent="."]
-transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 29.67138, 20.999985, 162.25945)
+[node name="StaticBody3D36" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(0.94183475, 0, -0.33607632, 0, 1, 0, 0.33607632, 0, 0.94183475, 29.67138, 20.999985, 83.10428)
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D36"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
@@ -475,8 +506,8 @@ skeleton = NodePath("")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.055279, 0)
 shape = SubResource("ConcavePolygonShape3D_cuo2v")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 78.874084)
+[node name="StaticBody3D" type="StaticBody3D" parent="." groups=["ground"]]
+collision_layer = 5
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D"]
 material_override = SubResource("StandardMaterial3D_ivai7")
@@ -500,11 +531,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.929553, -1.9073486e-06, 10
 player_hud = NodePath("../Player/PlayerHud")
 camera_target = NodePath("CameraTarget")
 
-[node name="BrickBuilding1" parent="." instance=ExtResource("5_flkix")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 22, 0, 17.316)
-
-[node name="BrickBuilding1Collision" type="StaticBody3D" parent="."]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 22, 0, 17.316)
+[node name="BrickBuilding1Collision" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 22, 0, -61.839165)
+collision_layer = 5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="BrickBuilding1Collision"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.57248, 2.2022023, -6.014221)
@@ -586,10 +615,13 @@ shape = SubResource("BoxShape3D_1sq24")
 transform = Transform3D(14, 0, 0, 0, 14.8228, 0, 0, 0, 14, 0.9559269, 14.823, -0.96948814)
 shape = SubResource("ConcavePolygonShape3D_1n8fv")
 
-[node name="ConcreteBuilding2" parent="." instance=ExtResource("6_1sq24")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.137972, 0.009969711, -30.209196)
+[node name="BrickBuilding1" parent="BrickBuilding1Collision" instance=ExtResource("5_flkix")]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="ConcreteBuilding2"]
+[node name="ConcreteBuilding2" parent="." instance=ExtResource("6_1sq24")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.137972, 0.009969711, -109.364365)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="ConcreteBuilding2" groups=["building"]]
+collision_layer = 5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="ConcreteBuilding2/StaticBody3D"]
 transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -10.029568, 20.00084, -10.021372)
@@ -756,9 +788,10 @@ transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0.002061843
 shape = SubResource("BoxShape3D_f2m37")
 
 [node name="StoneBuilding" parent="." instance=ExtResource("7_1n8fv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.803307, 7.6293945e-06, 11.03026)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.803307, 7.6293945e-06, -68.12491)
 
-[node name="StaticBody3D" type="StaticBody3D" parent="StoneBuilding"]
+[node name="StaticBody3D" type="StaticBody3D" parent="StoneBuilding" groups=["building"]]
+collision_layer = 5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StoneBuilding/StaticBody3D"]
 transform = Transform3D(1.0144448, 0, 0, 0, 1.05088, 0, 0, 0, 1.0144448, 1.1548805, 12.610552, -0.7574911)
@@ -791,6 +824,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.87108994, 0.17411971, 9.96
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7932091, 0, 9.164117)
 
 [node name="ZombieManager" type="Node3D" parent="." node_paths=PackedStringArray("player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -65.01779)
 script = ExtResource("9_7gt6q")
 player = NodePath("../Player")
 
@@ -16922,14 +16956,16 @@ linear_damp = 3.0
 player = NodePath("../../Player")
 manager = NodePath("..")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.151, 3.79, -91.74)
-mesh = SubResource("BoxMesh_7gt6q")
-
-[node name="Wall" type="StaticBody3D" parent="."]
+[node name="Wall" type="StaticBody3D" parent="." groups=["building"]]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -79.15517)
+collision_layer = 5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Wall"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4940796, 17.264263, -121.180435)
 shape = SubResource("BoxShape3D_dik5q")
+
+[node name="PositionTest" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.046, 0, -157.668)
+mesh = SubResource("BoxMesh_7gt6q")
 
 [editable path="Camera"]

@@ -13,10 +13,11 @@ extends RigidBody3D
 var is_climbing : bool = false
 var update_offset : int = randi_range(0, 8)
 var player_offset : Vector3 = Vector3(randf_range(-player_offset_value, player_offset_value), 0, randf_range(-player_offset_value, player_offset_value))
-var passive_offset : Vector3 = Vector3(randf_range(-player_offset_value * 2, player_offset_value * 2), 0, randf_range(-player_offset_value * 2, player_offset_value * 2))
+var passive_offset : Vector3 
 var continued_force : Vector3
 var behaviour : int = 0 # Zombie behaviour - 0 is neutral, 1 is alerted, 2 is attacking, 3 is straggler
 var horde : int # ID of horde zombie belongs to
+var offset_set : bool = false
 
 func _ready() -> void:
 	if randf_range(0, 1) < 0.3:
@@ -35,24 +36,24 @@ func _ready() -> void:
 func _physics_process(delta: float) -> void:
 	if !chase_player: # DEBUG
 		return
-	
+	if !offset_set:
+		passive_offset = Vector3(randf_range(-manager.hordes[horde].radius, manager.hordes[horde].radius), 0.0, randf_range(-manager.hordes[horde].radius, manager.hordes[horde].radius)) / 2
+		offset_set = true
 	#if (Engine.get_physics_frames() + update_offset) % 8 != 0:
 	#	apply_central_force(continued_force)
 	#	return
 	var distance = (player.position - position).length()
 	var direction : Vector3
-	#if manager.hordes[horde].behaviour == 0: # if distance > 3:
-	#	direction = (manager.hordes[horde].position + passive_offset - position).normalized()
-	#else: 
-	#	direction = (player.position + (player_offset / 2) - position).normalized()
-	
 	var force : Vector3 = Vector3.ZERO
-	if behaviour == 2:
-		force.x = direction.x * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
-		force.z = direction.z * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
-	elif behaviour == 0:
+	if manager.hordes[horde].behaviour == 0: # if distance > 3:
+		direction = (manager.hordes[horde].hposition + passive_offset - global_position).normalized()
 		force.x = direction.x * passive_speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
 		force.z = direction.z * passive_speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
+	elif manager.hordes[horde].behaviour == 2:
+		direction = (player.global_position + (player_offset / 2) - global_position).normalized()
+		force.x = direction.x * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
+		force.z = direction.z * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
+		
 	
 	#Climbing code
 	if position.y < 6 && (Engine.get_physics_frames() + update_offset) % 8 == 0:

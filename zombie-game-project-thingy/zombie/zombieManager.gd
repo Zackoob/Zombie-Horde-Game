@@ -41,7 +41,7 @@ func _ready() -> void:
 		set_horde_position(new_horde)
 		new_horde.behaviour = 0
 		assign_zombies(new_horde)
-		new_horde.radius = clampf(new_horde.horde_zombies.size() / 20, 10, 50)
+		new_horde.radius = clampf(new_horde.horde_zombies.size() / 15, 10, 50)
 		hordes.append(new_horde)
 		spawn_zombies(new_horde)
 		new_horde.timer = i * 100
@@ -52,7 +52,7 @@ func set_horde_position(new_horde):
 	while true:
 		var horde_position = Vector3(randf_range(-map_size, map_size), 0.0, randf_range(-map_size, map_size)) # Generate position
 		
-		# Check if position is valid - if so set position
+		# Check if position is not in building
 		if check_position_valid(horde_position):
 			new_horde.hposition = horde_position
 			break
@@ -75,7 +75,7 @@ func spawn_zombies(new_horde):
 	for zombie in range(new_horde.horde_zombies.size()):
 		var zombie_position
 		while true:
-			zombie_position = Vector3(new_horde.hposition.x + randf_range(-new_horde.radius, new_horde.radius), new_horde.hposition.y, new_horde.hposition.z + randf_range(-new_horde.radius, new_horde.radius))
+			zombie_position = Vector3(new_horde.hposition.x + randf_range(-new_horde.radius, new_horde.radius), randf_range(new_horde.hposition.y, 6), new_horde.hposition.z + randf_range(-new_horde.radius, new_horde.radius))
 			
 			if check_position_valid(zombie_position):
 				new_horde.horde_zombies[zombie].global_position = zombie_position
@@ -107,17 +107,9 @@ func update_horde_position():
 			while true:
 				var horde_position = hordes[i].hposition + Vector3(randf_range(-10, 10), 0.0, randf_range(-10, 10))
 				
-				var ray = get_world_3d().direct_space_state
-				var origin = Vector3(horde_position.x, 200.0, horde_position.z)
-				var destination = Vector3(origin.x, -10.0, origin.z)
-				var query = PhysicsRayQueryParameters3D.create(origin, destination)
-				var result = ray.intersect_ray(query)
-				
-				if result:
-					var collider = result.get("collider")
-					if collider.is_in_group("ground"):
-						hordes[i].hposition = horde_position
-						break
+				if check_position_valid(horde_position):
+					hordes[i].hposition = horde_position
+					break
 			hordes[i].timer = 0
 		else:
 			hordes[i].timer += 1
@@ -126,23 +118,23 @@ func check_player_distance():
 	check_ticker = 0
 	for i in range(hordes.size()):
 		var distance = (player.position - hordes[i].hposition).length()
-		if distance < alerted_distance:
+		if distance < alerted_distance + (hordes[i].radius / 2):
 			hordes[i].behaviour = 2
 			print("aggressive")
 		elif hordes[i].behaviour == 2 && distance > alerted_distance:
 			hordes[i].behaviour = 0
 
-func check_horde_position(horde):
-	var zombie_count : int = horde.horde_zombies.size()
-	if horde.horde_zombies.size() == 0:
+func check_horde_position(current_horde : horde):
+	var sample_size : int = int(current_horde.horde_zombies.size() / 2)
+	if current_horde.horde_zombies.size() == 0:
 		return
 	
 	var horde_average_position : Vector3 = Vector3.ZERO
-	for i in range(zombie_count):
-		horde_average_position += horde.horde_zombies[i].position
+	for i in range(sample_size):
+		horde_average_position += current_horde.horde_zombies[i].position
 	
-	horde_average_position /= zombie_count
-	horde.hposition = horde_average_position
+	horde_average_position /= sample_size
+	current_horde.hposition = horde_average_position
 
 # Function to check if the position is valid (if point is on ground not in building)
 func check_position_valid(input_position : Vector3):

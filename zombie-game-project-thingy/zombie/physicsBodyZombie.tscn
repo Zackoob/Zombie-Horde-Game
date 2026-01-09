@@ -17,8 +17,7 @@ height = 2.1
 continuous_cd = true
 angular_damp = 5.0
 script = ExtResource("1_wy8dd")
-speed = 200.0
-player_offset_value = 20.0
+aggressive_speed = 180.0
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

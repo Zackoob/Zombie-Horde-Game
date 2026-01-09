@@ -45,12 +45,13 @@ func _physics_process(delta: float) -> void:
 	var distance = (player.position - position).length()
 	var direction : Vector3
 	var force : Vector3 = Vector3.ZERO
+	
 	if manager.hordes[horde].behaviour == 0: # if distance > 3:
 		direction = (manager.hordes[horde].hposition + passive_offset - global_position).normalized()
 		force.x = direction.x * passive_speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
 		force.z = direction.z * passive_speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
 	elif manager.hordes[horde].behaviour == 2:
-		direction = (player.global_position + (player_offset / 2) - global_position).normalized()
+		direction = (player.global_position + (player_offset) - global_position).normalized()
 		force.x = direction.x * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0) + clampf(distance / 25, 1.0, 3.0))
 		force.z = direction.z * aggressive_speed * (clampf(position.y * 0.25, 1.0, 3.0)  + clampf(distance / 25, 1.0, 3.0))
 		

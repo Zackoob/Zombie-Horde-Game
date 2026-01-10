@@ -16965,7 +16965,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4940796, 17.264263, -121.18
 shape = SubResource("BoxShape3D_dik5q")
 
 [node name="PositionTest" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.046, 0, -157.668)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 178.327, 0, -113.05)
 mesh = SubResource("BoxMesh_7gt6q")
 
 [editable path="Camera"]

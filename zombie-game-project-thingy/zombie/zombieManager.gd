@@ -85,34 +85,37 @@ func _physics_process(delta: float) -> void:
 	if !player:
 		return 
 	
+	# Check if horde should be aggressive or passive
 	if check_ticker >= update_timer * 4:
 		print("Position check called")
 		check_player_distance()
 	else:
 		check_ticker += 1
 	
-	
+	# Update position of passive hordes
 	if update_ticker >= update_timer * 2:
 		print("Position update called")
 		update_horde_position()
 		
 	else:
 		update_ticker += 1
+		print(update_ticker)
 	
 
 func update_horde_position():
 	update_ticker = 0
 	for i in range(hordes.size()):
-		if hordes[i].timer >= 10 && hordes[i].behaviour == 0: # 10 Helps space out horde movement, rather than every horde moves and stops at the same time
+		if hordes[i].behaviour == 0: 
 			while true:
 				var horde_position = hordes[i].hposition + Vector3(randf_range(-10, 10), 0.0, randf_range(-10, 10))
 				
 				if check_position_valid(horde_position):
 					hordes[i].hposition = horde_position
+					print(hordes[i].hposition)
 					break
-			hordes[i].timer = 0
-		else:
-			hordes[i].timer += 1
+				else: 
+					print("\nPosition invalid")
+					print(horde_position)
 
 func check_player_distance():
 	check_ticker = 0
@@ -147,10 +150,13 @@ func check_position_valid(input_position : Vector3):
 	if result:
 		var collider = result.get("collider")
 		if collider.is_in_group("ground"):
+			#print("Position valid")
 			return true
 		else:
+			#print("Not on ground")
 			return false
 	else:
+		#print("No result")
 		return false
 
 

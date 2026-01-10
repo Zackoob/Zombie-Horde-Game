@@ -66,7 +66,6 @@ func assign_zombies(new_horde):
 	for i in range(horde_size):
 		var zombie = zombies[0]
 		zombie.horde = new_horde.id
-		#print(zombie.horde)
 		new_horde.horde_zombies.append(zombie)
 		zombies.erase(zombie)
 
@@ -87,39 +86,37 @@ func _physics_process(delta: float) -> void:
 	
 	# Check if horde should be aggressive or passive
 	if check_ticker >= update_timer * 4:
-		print("Position check called")
 		check_player_distance()
 	else:
 		check_ticker += 1
 	
 	# Update position of passive hordes
 	if update_ticker >= update_timer * 2:
-		print("Position update called")
 		update_horde_position()
 		
 	else:
 		update_ticker += 1
-		print(update_ticker)
 	
 
 func update_horde_position():
 	update_ticker = 0
 	for i in range(hordes.size()):
 		if hordes[i].behaviour == 0: 
-			while true:
-				var horde_position = hordes[i].hposition + Vector3(randf_range(-10, 10), 0.0, randf_range(-10, 10))
+			var generate_cap : int = 25
+			var horde_position : Vector3
+			for j in range(generate_cap):
+				horde_position = hordes[i].hposition + Vector3(randf_range(-10, 10), 0.0, randf_range(-10, 10))
 				
 				if check_position_valid(horde_position):
 					hordes[i].hposition = horde_position
-					print(hordes[i].hposition)
 					break
-				else: 
-					print("\nPosition invalid")
-					print(horde_position)
+			if hordes[i].hposition == Vector3.ZERO:
+				hordes[i].hposition = horde_position
 
 func check_player_distance():
 	check_ticker = 0
 	for i in range(hordes.size()):
+		check_horde_position(hordes[i])
 		var distance = (player.position - hordes[i].hposition).length()
 		if distance < alerted_distance + (hordes[i].radius / 2):
 			hordes[i].behaviour = 2
@@ -150,13 +147,10 @@ func check_position_valid(input_position : Vector3):
 	if result:
 		var collider = result.get("collider")
 		if collider.is_in_group("ground"):
-			#print("Position valid")
 			return true
 		else:
-			#print("Not on ground")
 			return false
 	else:
-		#print("No result")
 		return false
 
 

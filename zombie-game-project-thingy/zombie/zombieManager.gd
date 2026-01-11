@@ -76,7 +76,7 @@ func spawn_zombies(new_horde):
 		var zombie_position : Vector3
 		var radius_scale : float = 3.0
 		
-		zombie.player_offset = Vector3(randf_range(-zombie.player_offset_value + new_horde.radius / radius_scale, zombie.player_offset_value + new_horde.radius / radius_scale), 0.0, randf_range(-zombie.player_offset_value + new_horde.radius / radius_scale, zombie.player_offset_value + new_horde.radius / radius_scale))
+		zombie.player_offset = Vector3(randf_range(-zombie.player_offset_value - new_horde.radius / radius_scale, zombie.player_offset_value + new_horde.radius / radius_scale), 0.0, randf_range(-zombie.player_offset_value - new_horde.radius / radius_scale, zombie.player_offset_value + new_horde.radius / radius_scale))
 		while true:
 			zombie_position = Vector3(new_horde.hposition.x + randf_range(-new_horde.radius, new_horde.radius), randf_range(new_horde.hposition.y, 6), new_horde.hposition.z + randf_range(-new_horde.radius, new_horde.radius))
 			
@@ -157,6 +157,8 @@ func check_position_valid(input_position : Vector3):
 	else:
 		return false
 
+func killed_zombie(zombie, id : int):
+	hordes[id].horde_zombies.erase(zombie)
 
 
 #OLD CODE BELOW
@@ -229,6 +231,3 @@ func find_aggressive_horde_position():
 	
 	#horde_position /= position_array.size()
 	#horde_position = Vector3(horde_position.x, 0.0, horde_position.z)
-
-func killed_zombie(zombie):
-	zombies.erase(zombie)

@@ -132,5 +132,5 @@ func shoot():
 	DebugDraw3D.draw_line(origin, destination, Color.RED)
 	
 	if collider && collider.is_in_group("Zombies"):
-		collider.get_parent().killed_zombie(collider)
+		collider.get_parent().killed_zombie(collider, collider.horde)
 		get_node(collider.get_path()).queue_free()

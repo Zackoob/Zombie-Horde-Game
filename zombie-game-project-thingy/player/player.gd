@@ -58,14 +58,12 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("sprint") && stamina > 0:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * sprint_acceleration
 		stamina -= 0.5
-		print(stamina)
 		$PlayerHud.update_stamina_bar(stamina)
 	else:
 		input_velocity = input_velocity.rotated(Vector3.UP, camera_t).normalized() * walk_acceleration
 		if stamina < 100:
 			stamina += 0.5
 			$PlayerHud.update_stamina_bar(stamina)
-			print(stamina)
 	
 	# Apply player movement
 	velocity.x = input_velocity.x
@@ -83,7 +81,7 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	camera_smooth_follow(delta)
 	
-	# Shooting	
+	# Shooting
 	if Input.is_action_just_pressed("shoot") && bullets > 0:
 		bullets = $PlayerHud.bullets_loaded
 		total_bullets = $PlayerHud.bullets_total

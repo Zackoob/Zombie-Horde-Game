@@ -18,6 +18,7 @@ continuous_cd = true
 angular_damp = 5.0
 script = ExtResource("1_wy8dd")
 aggressive_speed = 180.0
+wall_threshold = 4.0
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)

@@ -71,13 +71,17 @@ func assign_zombies(new_horde):
 
 # Function to spawn zombies at horde position
 func spawn_zombies(new_horde):
-	for zombie in range(new_horde.horde_zombies.size()):
-		var zombie_position
+	for i in range(new_horde.horde_zombies.size()):
+		var zombie = new_horde.horde_zombies[i]
+		var zombie_position : Vector3
+		var radius_scale : float = 3.0
+		
+		zombie.player_offset = Vector3(randf_range(-zombie.player_offset_value + new_horde.radius / radius_scale, zombie.player_offset_value + new_horde.radius / radius_scale), 0.0, randf_range(-zombie.player_offset_value + new_horde.radius / radius_scale, zombie.player_offset_value + new_horde.radius / radius_scale))
 		while true:
 			zombie_position = Vector3(new_horde.hposition.x + randf_range(-new_horde.radius, new_horde.radius), randf_range(new_horde.hposition.y, 6), new_horde.hposition.z + randf_range(-new_horde.radius, new_horde.radius))
 			
 			if check_position_valid(zombie_position):
-				new_horde.horde_zombies[zombie].global_position = zombie_position
+				zombie.global_position = zombie_position
 				break
 
 func _physics_process(delta: float) -> void:
